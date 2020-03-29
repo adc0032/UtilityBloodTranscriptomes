@@ -3,9 +3,8 @@
 ### Amanda D. Clark
 ### Auburn University
 ### Tonia Schwartz Lab
-##Created: 3/29/20##
-
-##Updated: 	      ##
+#### Created: 3/29/20
+#### Updated: 	      
 
 
 # Utility of Blood Transcriptomes Directory
