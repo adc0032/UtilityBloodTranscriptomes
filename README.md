@@ -41,7 +41,7 @@ This ran 3 scripts to produce mitogenome sequences and visualization info found 
 | Ccon | SRR6841720 |
 | Emul | SRR6841719 |
 
-This provides information for downloading the SRR data associated with Pituophis catenifer and other listed species in the project referenced above, putting fastq files into directory `SRR`, trimming files (located in `trimmed`), and runNING MitoZ for mitogenome assembly found in `MitoZ/Species.results`. 
+This provides information for downloading the SRR data associated with Pituophis catenifer and other listed species in the project referenced above, putting fastq files into directory `SRR`, trimming files (located in `trimmed`), and running MitoZ for mitogenome assembly found in `MitoZ/Species.results`. 
 
 #### `getseq.sh`
 
