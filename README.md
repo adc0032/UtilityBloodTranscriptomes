@@ -1,19 +1,19 @@
-####################
-#####README.txt#####
-## Amanda D. Clark##
-#Auburn University##
-#Tonia Schwartz Lab#
+
+# README 
+## Amanda D. Clark
+## Auburn University
+## Tonia Schwartz Lab
 ##Created: 3/29/20##
-##Updated: 	  ##
-####################
+##Updated: 	      ##
 
-#Utility of Blood Transcriptomes Directory
 
-###Background
+# Utility of Blood Transcriptomes Directory
+
+### Background
 Waits (2019) 'The utility of reptile blood transcriptomes in molecular ecology' demonstrating the usefulness of transcriptomic data. 
 I am assembling mitochondrial genomes from the data submitted on NCBI project SRP135786. I am using MitoZ as a preliminary mode of mitogenome assembly. 
 
-###Scripts
+### Scripts
 usage `sh runall.sh`
 
 This ran 3 scripts `getseq.sh` `trimseq.sh` `mitozseq.sh` to produce mitogenome sequences info 
