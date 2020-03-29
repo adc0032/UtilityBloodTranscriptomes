@@ -1,0 +1,5 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C76761
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C85509
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C90233
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C90725
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|C90725:960-1744] [lcl|C90725: raw, dna len= 6364] -> [lcl|C90725_3]

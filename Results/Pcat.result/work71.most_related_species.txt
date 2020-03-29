@@ -1,0 +1,4 @@
+C76761	Mus musculus
+C85509	Nerodia sipedon
+C90233	Nerodia sipedon
+C90725	Nerodia sipedon

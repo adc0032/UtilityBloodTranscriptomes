@@ -1,0 +1,76 @@
+>Feature C94441
+<1627	83	gene
+			gene	COX1
+<1627	83	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	2
+			note	can not determine the start codon
+20	91	gene
+			gene	trnS(uga)
+20	91	tRNA
+			product	tRNA-Ser
+>Feature C96213
+46	1869	gene
+			gene	ND5
+46	1869	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	2
+2379	1861	gene
+			gene	ND6
+2379	1861	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	2
+2451	3587	gene
+			gene	CYTB
+2451	3587	CDS
+			product	cytochrome b
+			transl_table	2
+2447	2380	gene
+			gene	trnE(uuc)
+2447	2380	tRNA
+			product	tRNA-Glu
+>Feature C87315
+131	820	gene
+			gene	COX2
+131	820	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	2
+61	130	gene
+			gene	trnD(guc)
+61	130	tRNA
+			product	tRNA-Asp
+>Feature C95631
+413	68	gene
+			gene	ND3
+413	68	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	2
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+1263	479	gene
+			gene	COX3
+1263	479	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	2
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+1946	1263	gene
+			gene	ATP6
+1946	1263	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	2
+2104	1937	gene
+			gene	ATP8
+2104	1937	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	2
+67	2	gene
+			gene	trnR(ucg)
+67	2	tRNA
+			product	tRNA-Arg
+479	414	gene
+			gene	trnG(ucc)
+479	414	tRNA
+			product	tRNA-Gly
+2167	2105	gene
+			gene	trnK(uuu)
+2167	2105	tRNA
+			product	tRNA-Lys

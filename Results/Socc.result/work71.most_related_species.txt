@@ -1,0 +1,4 @@
+C88247	Chrysemys picta
+C102131	Chrysemys picta
+C102429	Chrysemys picta
+C102543	Chrysemys picta

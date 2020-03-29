@@ -1,0 +1,7 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C87315
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C94441
+WARNING: valid [SEQ_FEAT.PartialProblem] PartialLocation: 5' partial is not at start AND is not at consensus splice site FEATURE: CDS: cytochrome c oxidase subunit I [lcl|C94441:c>1627-83] [lcl|C94441: raw, dna len= 1634] -> [lcl|C94441_1]
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C95631
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 3 [lcl|C95631:c413-68] [lcl|C95631: raw, dna len= 2217] -> [lcl|C95631_1]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|C95631:c1263-479] [lcl|C95631: raw, dna len= 2217] -> [lcl|C95631_2]
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C96213

@@ -1,0 +1,60 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+C90725         6364           no             Nerodia sipedon     
+C85509         1133           no             Nerodia sipedon     
+C76761         657            no             Mus musculus        
+C90233         2507           no             Nerodia sipedon     
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+C76761         3      618    616        +          CDS    COX1       cytochrome c oxidase subunit I    1              
+C85509         3      1122   1120       +          CDS    CYTB       cytochrome b                      1              
+C90233         12     978    967        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+C90233         996    2489   1494       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+C90725         61     124    64         +          tRNA   trnK(uuu)  tRNA-Lys                          1              
+C90725         125    290    166        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+C90725         280    961    682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+C90725         960    1745   786        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+C90725         1744   1804   61         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+C90725         1804   2167   364        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+C90725         2147   2212   66         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+C90725         2212   2503   292        +          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+C90725         2502   3840   1339       +          CDS    ND4        NADH dehydrogenase subunit 4      1              
+C90725         3839   3903   65         +          tRNA   trnH(gug)  tRNA-His                          1              
+C90725         3958   4029   72         +          tRNA   trnL(uag)  tRNA-Leu                          1              
+C90725         4051   5812   1762       +          CDS    ND5        NADH dehydrogenase subunit 5      1              
+C90725         5807   6317   511        -          CDS    ND6        NADH dehydrogenase subunit 6      1              
+
+
+Protein coding genes totally found: 11
+tRNA genes totally found:            5
+rRNA genes totally found:            1
+--------------------------------------
+Genes totally found:                17
+
+
+Potential missing genes:
+#Gene             total_missing_number
+--------------------------------------
+COX2                                 1
+ND2                                  1
+s-rRNA                               1
+tRNA-Ala                             1
+tRNA-Asn                             1
+tRNA-Asp                             1
+tRNA-Cys                             1
+tRNA-Gln                             1
+tRNA-Glu                             1
+tRNA-Ile                             1
+tRNA-Leu                             1
+tRNA-Met                             1
+tRNA-Phe                             1
+tRNA-Pro                             1
+tRNA-Ser                             2
+tRNA-Thr                             1
+tRNA-Trp                             1
+tRNA-Tyr                             1
+tRNA-Val                             1
+
+The missing genes might be foud from the
+'*.high_abundance*' and '*.low_abundance*' files!

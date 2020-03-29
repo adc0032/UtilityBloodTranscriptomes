@@ -1,0 +1,4 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C99877
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C99931
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 3 [lcl|C99931:c5841-5498] [lcl|C99931: raw, dna len= 11485] -> [lcl|C99931_6]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|C99931:c6686-5902] [lcl|C99931: raw, dna len= 11485] -> [lcl|C99931_7]
