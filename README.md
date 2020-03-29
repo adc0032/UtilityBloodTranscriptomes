@@ -30,7 +30,7 @@ The second script took the fastq files and trims them based on 100bp read sizes.
 
 *User will need to update paths to reflect user environment*
  
-The third script used the trimmed fastq sequences and runs them through the fast mode of MitoZ
+The third script used the trimmed fastq sequences and runs them through the fast mode of MitoZ.
 [MitoZ](https://github.com/linzhi2013/MitoZ/tree/master/version_2.4-alpha) will need to be downloaded and set up. (I ran a conda installation)
 
 *User will need to update information on reads and MitoZ run preferences*
