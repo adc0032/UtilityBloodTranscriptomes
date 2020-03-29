@@ -9,7 +9,7 @@
 # Utility of Blood Transcriptomes Directory
 
 ### Background
-Waits (2019) *The utility of reptile blood transcriptomes in molecular ecology* discussing the usefulness of transcriptomic data. 
+Waits (2019) *The utility of reptile blood transcriptomes in molecular ecology* discusses the usefulness of transcriptomic data in molecular ecology research. 
 I am assembling mitochondrial genomes from the data submitted on NCBI project **SRP135786**. 
 
 I am using `MitoZ` (Meng 2019) as a preliminary mode of mitogenome assembly. 
