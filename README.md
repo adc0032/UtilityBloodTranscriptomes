@@ -17,7 +17,8 @@ I am assembling mitochondrial genomes from the data submitted on NCBI project SR
 usage `sh runall.sh`
 
 This ran 3 scripts `getseq.sh` `trimseq.sh` `mitozseq.sh` to produce mitogenome sequences info 
-`Species.result/summary.txt` and visualization `Species.result/Species.circos.png`. The three individual scripts need to be edited for new SRR numbers and users.
+`Species.result/summary.txt` and visualization `Species.result/Species.circos.png`. 
+The three individual scripts need to be edited for new users where indicated, so please review the scripts.
 
 *User needs one tab-delimited list with species name and the corresponding SRR number (e.g. Pcat    SRR#####) in a file named `SRA_Sample.txt`*
 
