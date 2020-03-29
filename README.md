@@ -29,9 +29,19 @@ This ran 3 scripts to produce mitogenome sequences and visualization info found 
 
 **The three scripts need to be edited for new users where indicated, so please review the scripts before `sh runall.sh`.**
 
-*User needs one tab-delimited list with species name and the corresponding SRR number (e.g. Pcat  SRR#####) in a file named `SRA_Sample.txt`*
+*User needs one tab-delimited list with species name and the corresponding SRR number in a file named `SRA_Sample.txt`*
+(e.g. SRA_Sample.txt, NO HEADER-written here for clarity)
 
-This line downloads the SRR data associated with Pituophis catenifer in the project referenced above, putting fastq files into directory `SRR`, trimming files located in `trimmed`, and runs MitoZ for mitogenome assembly found in `MitoZ/Pcat.results`. 
+| Species | SRR |
+| ------- | --- |
+| Pcat | SRR6841718 |   
+| Tele | SRR6841717 |
+| Socc | SRR6841721 |
+| Cpit | SRR6841722 |
+| Ccon | SRR6841720 |
+| Emul | SRR6841719 |
+
+This provides information for downloading the SRR data associated with Pituophis catenifer and other listed species in the project referenced above, putting fastq files into directory `SRR`, trimming files (located in `trimmed`), and runNING MitoZ for mitogenome assembly found in `MitoZ/Species.results`. 
 
 #### `getseq.sh`
 
