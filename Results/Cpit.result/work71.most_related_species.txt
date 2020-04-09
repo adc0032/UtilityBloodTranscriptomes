@@ -1,2 +1,4 @@
-scaffold5683	Orthriophis taeniurus
-C129479	Ptyas dhumnades
+C88247	Chrysemys picta
+C102131	Chrysemys picta
+C102429	Chrysemys picta
+C102543	Chrysemys picta

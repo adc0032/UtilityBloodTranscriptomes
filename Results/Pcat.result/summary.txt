@@ -1,60 +1,59 @@
 #Seq_id        Length(bp)     Circularity    Closely_related_species
-C90725         6364           no             Nerodia sipedon     
-C85509         1133           no             Nerodia sipedon     
-C76761         657            no             Mus musculus        
-C90233         2507           no             Nerodia sipedon     
+C99931         11485          no             Pituophis catenifer 
+C99877         3695           no             Pituophis catenifer 
 
 
 #Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
 --------------------------------------------------------------------------------------------------------------------------
-C76761         3      618    616        +          CDS    COX1       cytochrome c oxidase subunit I    1              
-C85509         3      1122   1120       +          CDS    CYTB       cytochrome b                      1              
-C90233         12     978    967        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
-C90233         996    2489   1494       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
-C90725         61     124    64         +          tRNA   trnK(uuu)  tRNA-Lys                          1              
-C90725         125    290    166        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
-C90725         280    961    682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
-C90725         960    1745   786        +          CDS    COX3       cytochrome c oxidase subunit III  1              
-C90725         1744   1804   61         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
-C90725         1804   2167   364        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
-C90725         2147   2212   66         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
-C90725         2212   2503   292        +          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
-C90725         2502   3840   1339       +          CDS    ND4        NADH dehydrogenase subunit 4      1              
-C90725         3839   3903   65         +          tRNA   trnH(gug)  tRNA-His                          1              
-C90725         3958   4029   72         +          tRNA   trnL(uag)  tRNA-Leu                          1              
-C90725         4051   5812   1762       +          CDS    ND5        NADH dehydrogenase subunit 5      1              
-C90725         5807   6317   511        -          CDS    ND6        NADH dehydrogenase subunit 6      1              
+C99877         74     136    63         +          tRNA   trnF(gaa)  tRNA-Phe                          1              
+C99877         136    1067   932        +          rRNA   s-rRNA     12S ribosomal RNA                 1              
+C99877         1064   1127   64         +          tRNA   trnV(uac)  tRNA-Val                          1              
+C99877         1101   2583   1483       +          rRNA   l-rRNA     16S ribosomal RNA                 1              
+C99877         2607   3567   961        +          CDS    ND1        NADH dehydrogenase subunit 1      1              
+C99877         3562   3628   67         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+C99931         36     97     62         +          tRNA   trnP(ugg)  tRNA-Pro                          1              
+C99931         97     163    67         -          tRNA   trnT(ugu)  tRNA-Thr                          1              
+C99931         140    1280   1141       -          CDS    CYTB       cytochrome b                      1              
+C99931         1278   1341   64         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+C99931         1350   1851   502        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+C99931         1846   3616   1771       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+C99931         3616   3687   72         -          tRNA   trnL(uag)  tRNA-Leu                          1              
+C99931         3684   3742   59         -          tRNA   trnS(gcu)  tRNA-Ser                          2              
+C99931         3742   3806   65         -          tRNA   trnH(gug)  tRNA-His                          1              
+C99931         3806   5144   1339       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+C99931         5143   5434   292        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+C99931         5434   5499   66         -          tRNA   trnR(ucg)  tRNA-Arg                          1              
+C99931         5498   5842   345        -          CDS    ND3        NADH dehydrogenase subunit 3      1              
+C99931         5842   5903   62         -          tRNA   trnG(ucc)  tRNA-Gly                          1              
+C99931         5902   6687   786        -          CDS    COX3       cytochrome c oxidase subunit III  1              
+C99931         6686   7367   682        -          CDS    ATP6       ATP synthase F0 subunit 6         1              
+C99931         7357   7513   157        -          CDS    ATP8       ATP synthase F0 subunit 8         1              
+C99931         7514   7577   64         -          tRNA   trnK(uuu)  tRNA-Lys                          1              
+C99931         7569   8262   694        -          CDS    COX2       cytochrome c oxidase subunit II   1              
+C99931         8262   8326   65         -          tRNA   trnD(guc)  tRNA-Asp                          1              
+C99931         8326   8393   68         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+C99931         8383   9985   1603       -          CDS    COX1       cytochrome c oxidase subunit I    1              
+C99931         9986   10048  63         +          tRNA   trnY(gua)  tRNA-Tyr                          1              
+C99931         10048  10109  62         +          tRNA   trnC(gca)  tRNA-Cys                          1              
+C99931         10145  10218  74         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+C99931         10218  10281  64         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+C99931         10282  10347  66         -          tRNA   trnW(uca)  tRNA-Trp                          1              
+C99931         10345  11377  1033       -          CDS    ND2        NADH dehydrogenase subunit 2      1              
+C99931         11377  11439  63         -          tRNA   trnM(cau)  tRNA-Met                          1              
 
 
-Protein coding genes totally found: 11
-tRNA genes totally found:            5
-rRNA genes totally found:            1
+Protein coding genes totally found: 13
+tRNA genes totally found:           20
+rRNA genes totally found:            2
 --------------------------------------
-Genes totally found:                17
+Genes totally found:                35
 
 
 Potential missing genes:
 #Gene             total_missing_number
 --------------------------------------
-COX2                                 1
-ND2                                  1
-s-rRNA                               1
-tRNA-Ala                             1
-tRNA-Asn                             1
-tRNA-Asp                             1
-tRNA-Cys                             1
 tRNA-Gln                             1
-tRNA-Glu                             1
-tRNA-Ile                             1
 tRNA-Leu                             1
-tRNA-Met                             1
-tRNA-Phe                             1
-tRNA-Pro                             1
-tRNA-Ser                             2
-tRNA-Thr                             1
-tRNA-Trp                             1
-tRNA-Tyr                             1
-tRNA-Val                             1
 
 The missing genes might be foud from the
 '*.high_abundance*' and '*.low_abundance*' files!

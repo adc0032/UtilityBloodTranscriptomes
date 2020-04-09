@@ -1,10 +1,2 @@
-scaffold2433_FivePCGs	Homo heidelbergensis
-C39691	Platevindex mortoni
-C75077	Sceloporus occidentalis
-C78501	Aleurodicus dispersus
-C79311	Sceloporus occidentalis
-C81551	Mus musculus
-C81875	Mus musculus
-C81923	Sceloporus occidentalis
-C82849_FivePCGs	Sceloporus occidentalis
-C83103	Sceloporus occidentalis
+scaffold5683	Orthriophis taeniurus
+C129479	Ptyas dhumnades

@@ -11,59 +11,59 @@ genes can be caused by assemlby (e.g., there are Ns), annotation, mutation,
 or the sequence simply comes from nuclear mitochondrial DNA segments (NUMTs).
 You may inspect its sequencing depth from the visualization result files.
 File:
-Ccon_mitoscaf.fa.val
-Ccon.errorsummary.val
+Cpit.errorsummary.val
+Cpit_mitoscaf.fa.val
 
 ------------------------------------------------------------------------------------------
 ------------------------- mitochondrial genome files -------------------------------------
 
 - 3. The mitochondrial genome in GenBank format.
 File:
-Ccon_mitoscaf.fa.gbf
+Cpit_mitoscaf.fa.gbf
 
 - 4. The mitochondrial genome in Fasta format.
 File:
-Ccon.fasta
+Cpit.fasta
 
 - 5. The visualization of the mitochondrial genome.
 File:
-Ccon.circos.png
-Ccon.circos.svg
+Cpit.circos.svg
+Cpit.circos.png
 
 - 6. The sequencing depth of each site of the mitochondrial genome,
 and the sequence id relationships.
 File:
-Ccon.circos.karyotype.txt
-Ccon.circos.dep
+Cpit.circos.dep
+Cpit.circos.karyotype.txt
 
 - 7. The mitochondrial genome in sqn format.
 This file can be used to upload to GenBank database after you confirm
-the file Ccon_mitoscaf.fa.gbf has no annotation problem.
+the file Cpit_mitoscaf.fa.gbf has no annotation problem.
 File:
-Ccon_mitoscaf.fa.sqn
+Cpit_mitoscaf.fa.sqn
 
 - 8. The feature table for the mitochondrial genome.
 File:
-Ccon_mitoscaf.fa.tbl
+Cpit_mitoscaf.fa.tbl
 
 ------------------------------------------------------------------------------------------
 ------------------------- each gene sequences --------------------------------------------
 
 - 9. The CDS sequences of each protein coding gene.
 File:
-Ccon.cds
+Cpit.cds
 
 - 10. The rRNA gene sequences for each rRNA gene.
 File:
-Ccon.rrna
+Cpit.rrna
 
 - 11. The tRNA gene sequences for each tRNA gene.
 File:
-Ccon.trna
+Cpit.trna
 
 - 12. The control region sequence.
 File:
-Ccon.misc_feature
+Cpit.misc_feature
 
 ------------------------------------------------------------------------------------------
 ------------------------- mitochondrial sequences from each kmer assembly ----------------
