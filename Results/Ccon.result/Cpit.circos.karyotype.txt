@@ -1,2 +1,0 @@
-chr1 - mt1	scaffold5683	0	2555	grey
-chr2 - mt2	C129479	0	11483	grey

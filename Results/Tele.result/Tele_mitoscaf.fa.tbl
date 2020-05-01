@@ -1,157 +1,84 @@
->Feature C99931
-1279	140	gene
-			gene	CYTB
-1279	140	CDS
-			product	cytochrome b
+>Feature C90233
+977	12	gene
+			gene	ND1
+977	12	CDS
+			product	NADH dehydrogenase subunit 1
 			transl_table	2
-1350	1850	gene
-			gene	ND6
-1350	1850	CDS
-			product	NADH dehydrogenase subunit 6
+2488	996	gene
+			gene	l-rRNA
+2488	996	rRNA
+			product	16S ribosomal RNA
+>Feature C90725
+125	289	gene
+			gene	ATP8
+125	289	CDS
+			product	ATP synthase F0 subunit 8
 			transl_table	2
-3615	1846	gene
-			gene	ND5
-3615	1846	CDS
-			product	NADH dehydrogenase subunit 5
+280	960	gene
+			gene	ATP6
+280	960	CDS
+			product	ATP synthase F0 subunit 6
 			transl_table	2
-5143	3806	gene
-			gene	ND4
-5143	3806	CDS
-			product	NADH dehydrogenase subunit 4
-			transl_table	2
-5433	5143	gene
-			gene	ND4L
-5433	5143	CDS
-			product	NADH dehydrogenase subunit 4L
-			transl_table	2
-5841	5498	gene
-			gene	ND3
-5841	5498	CDS
-			product	NADH dehydrogenase subunit 3
-			transl_table	2
-			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
-6686	5902	gene
+960	1744	gene
 			gene	COX3
-6686	5902	CDS
+960	1744	CDS
 			product	cytochrome c oxidase subunit III
 			transl_table	2
 			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
-7366	6686	gene
-			gene	ATP6
-7366	6686	CDS
-			product	ATP synthase F0 subunit 6
+1804	2166	gene
+			gene	ND3
+1804	2166	CDS
+			product	NADH dehydrogenase subunit 3
 			transl_table	2
-7512	7357	gene
-			gene	ATP8
-7512	7357	CDS
-			product	ATP synthase F0 subunit 8
+2212	2502	gene
+			gene	ND4L
+2212	2502	CDS
+			product	NADH dehydrogenase subunit 4L
 			transl_table	2
-8261	7569	gene
-			gene	COX2
-8261	7569	CDS
-			product	cytochrome c oxidase subunit II
+2502	3839	gene
+			gene	ND4
+2502	3839	CDS
+			product	NADH dehydrogenase subunit 4
 			transl_table	2
-9984	8383	gene
+4051	5811	gene
+			gene	ND5
+4051	5811	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	2
+6316	5807	gene
+			gene	ND6
+6316	5807	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	2
+61	123	gene
+			gene	trnK(uuu)
+61	123	tRNA
+			product	tRNA-Lys
+1744	1803	gene
+			gene	trnG(ucc)
+1744	1803	tRNA
+			product	tRNA-Gly
+2147	2211	gene
+			gene	trnR(ucg)
+2147	2211	tRNA
+			product	tRNA-Arg
+3839	3902	gene
+			gene	trnH(gug)
+3839	3902	tRNA
+			product	tRNA-His
+3958	4028	gene
+			gene	trnL(uag)
+3958	4028	tRNA
+			product	tRNA-Leu
+>Feature C85509
+3	1121	gene
+			gene	CYTB
+3	1121	CDS
+			product	cytochrome b
+			transl_table	2
+>Feature C76761
+3	617	gene
 			gene	COX1
-9984	8383	CDS
+3	617	CDS
 			product	cytochrome c oxidase subunit I
 			transl_table	2
-11376	10345	gene
-			gene	ND2
-11376	10345	CDS
-			product	NADH dehydrogenase subunit 2
-			transl_table	2
-36	96	gene
-			gene	trnP(ugg)
-36	96	tRNA
-			product	tRNA-Pro
-162	97	gene
-			gene	trnT(ugu)
-162	97	tRNA
-			product	tRNA-Thr
-1278	1340	gene
-			gene	trnE(uuc)
-1278	1340	tRNA
-			product	tRNA-Glu
-3686	3616	gene
-			gene	trnL(uag)
-3686	3616	tRNA
-			product	tRNA-Leu
-3741	3684	gene
-			gene	trnS(gcu)
-3741	3684	tRNA
-			product	tRNA-Ser
-3805	3742	gene
-			gene	trnH(gug)
-3805	3742	tRNA
-			product	tRNA-His
-5498	5434	gene
-			gene	trnR(ucg)
-5498	5434	tRNA
-			product	tRNA-Arg
-5902	5842	gene
-			gene	trnG(ucc)
-5902	5842	tRNA
-			product	tRNA-Gly
-7576	7514	gene
-			gene	trnK(uuu)
-7576	7514	tRNA
-			product	tRNA-Lys
-8325	8262	gene
-			gene	trnD(guc)
-8325	8262	tRNA
-			product	tRNA-Asp
-8326	8392	gene
-			gene	trnS(uga)
-8326	8392	tRNA
-			product	tRNA-Ser
-9986	10047	gene
-			gene	trnY(gua)
-9986	10047	tRNA
-			product	tRNA-Tyr
-10048	10108	gene
-			gene	trnC(gca)
-10048	10108	tRNA
-			product	tRNA-Cys
-10145	10217	gene
-			gene	trnN(guu)
-10145	10217	tRNA
-			product	tRNA-Asn
-10218	10280	gene
-			gene	trnA(ugc)
-10218	10280	tRNA
-			product	tRNA-Ala
-10346	10282	gene
-			gene	trnW(uca)
-10346	10282	tRNA
-			product	tRNA-Trp
-11438	11377	gene
-			gene	trnM(cau)
-11438	11377	tRNA
-			product	tRNA-Met
->Feature C99877
-2607	3566	gene
-			gene	ND1
-2607	3566	CDS
-			product	NADH dehydrogenase subunit 1
-			transl_table	2
-74	135	gene
-			gene	trnF(gaa)
-74	135	tRNA
-			product	tRNA-Phe
-1064	1126	gene
-			gene	trnV(uac)
-1064	1126	tRNA
-			product	tRNA-Val
-3562	3627	gene
-			gene	trnI(gau)
-3562	3627	tRNA
-			product	tRNA-Ile
-136	1066	gene
-			gene	s-rRNA
-136	1066	rRNA
-			product	12S ribosomal RNA
-1101	2582	gene
-			gene	l-rRNA
-1101	2582	rRNA
-			product	16S ribosomal RNA

@@ -1,8 +1,17 @@
-NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C88247
-NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C102131
-NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C102429
-NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C102543
-ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|C102543:4783-5567] [lcl|C102543: raw, dna len= 9820] -> [lcl|C102543_6]
-ERROR: valid [SEQ_FEAT.InternalStop] 5 internal stops. Genetic code [2] FEATURE: CDS: NADH dehydrogenase subunit 3 [lcl|C102543:5636-5987] [lcl|C102543: raw, dna len= 9820] -> [lcl|C102543_7]
-ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 3 [lcl|C102543:5636-5987] [lcl|C102543: raw, dna len= 9820] -> [lcl|C102543_7]
-ERROR: valid [SEQ_INST.StopInProtein] [5] termination symbols in protein sequence (ND3 - NADH dehydrogenase subunit 3) BIOSEQ: lcl|C102543_7: raw, aa len= 117
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|scaffold2433_FivePCGs
+ERROR: valid [SEQ_FEAT.InternalStop] 41 internal stops. Genetic code [2] FEATURE: CDS: NADH dehydrogenase subunit 2 [lcl|scaffold2433_FivePCGs:3920-4960] [lcl|scaffold2433_FivePCGs: raw, dna len= 8430] -> [lcl|scaffold2433_FivePCGs_2]
+WARNING: valid [SEQ_FEAT.PartialProblem] PartialLocation: 3' partial is not at stop AND is not at consensus splice site FEATURE: CDS: ATP synthase F0 subunit 6 [lcl|scaffold2433_FivePCGs:7973->8428] [lcl|scaffold2433_FivePCGs: raw, dna len= 8430] -> [lcl|scaffold2433_FivePCGs_6]
+WARNING: valid [SEQ_INST.InternalNsInSeqRaw] Run of 107 Ns in raw sequence starting at base 1692 BIOSEQ: lcl|scaffold2433_FivePCGs: raw, dna len= 8430
+ERROR: valid [SEQ_INST.StopInProtein] [41] termination symbols in protein sequence (ND2 - NADH dehydrogenase subunit 2) BIOSEQ: lcl|scaffold2433_FivePCGs_2: raw, aa len= 346
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C39691
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C75077
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C78501
+WARNING: valid [SEQ_FEAT.PartialProblem] PartialLocation: 3' partial is not at stop AND is not at consensus splice site FEATURE: CDS: NADH dehydrogenase subunit 1 [lcl|C78501:c946-<2] [lcl|C78501: raw, dna len= 1058] -> [lcl|C78501_1]
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C79311
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C81551
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C81875
+WARNING: valid [SEQ_FEAT.PartialProblem] PartialLocation: 3' partial is not at stop AND is not at consensus splice site FEATURE: CDS: NADH dehydrogenase subunit 4 [lcl|C81875:287->1657] [lcl|C81875: raw, dna len= 1659] -> [lcl|C81875_2]
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C81923
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C82849_FivePCGs
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 3 [lcl|C82849_FivePCGs:c2098-1753] [lcl|C82849_FivePCGs: raw, dna len= 2207] -> [lcl|C82849_FivePCGs_3]
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|C83103

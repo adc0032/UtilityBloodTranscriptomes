@@ -1,2 +1,0 @@
-chr1 - mt1	C99877	0	3695	grey
-chr2 - mt2	C99931	0	11485	grey

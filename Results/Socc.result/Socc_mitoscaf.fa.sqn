@@ -117,7 +117,7 @@ Seq-submit ::= {
               seq {
                 id {
                   local
-                    str "C88247" } ,
+                    str "scaffold2433_FivePCGs" } ,
                 descr {
                   title "topology=linear" ,
                   molinfo {
@@ -125,463 +125,117 @@ Seq-submit ::= {
                 inst {
                   repr raw ,
                   mol dna ,
-                  length 658 ,
+                  length 8430 ,
                   seq-data
-                    iupacna "CCCCCCCCCCCGGGGGGGAGGGAGAGAAGGAAAAGAAATTATAAACCCA
-TCTCCTAACATAATGCTACTACCCATAATCTCTAGTTCCTAATAGAATGTAACGTCCCACAAGATAAACCCCGCACCA
-TCTCCAATACAACAAATAATGTCAATAACAACCCTCAACCAGAAATCAAAAACATCACACTACCATAATAATAAAACC
-ACGAAACCCCACCAAAATCCAAACGAACAACACACAGCCCGACACCATCAGCCGTAACCTCCCCAAACCCCTCTACAC
-CACACAAAAAAGAACCTATAACTACAAGACCTAAAACAAGCAGTACAAACCCTACCACATAAACCAACCCCCCTAAAC
-CTCCCCAACCCGCCGGATAAGGATCTACCACTAACGCAGACGAATAAGCAAAAACCACTAACATCCCCCCTAAATAAA
-TCAAAAATAGCACCAAAGACATAAAAGATCCTCCCATACCAACCAATACTCCACACCCAGAAGCTGCCCCTAATACTA
-AACTAAGAACACCATAATAGGGTGATGGATTACAAGACACACCCACTATTCAAAAGACAAAGCAGAATCCAAACAAAA
-ACATAAAGTATATCATAATTATTACTCGGATTTAAACCGAGACTTGTGGTTTGAAAAACCACC" } ,
-                annot {
-                  {
-                    data
-                      ftable {
-                        {
-                          data
-                            gene {
-                              locus "ND6" } ,
-                          location
-                            int {
-                              from 86 ,
-                              to 610 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C88247" } } } } } } ,
-              seq {
-                id {
-                  local
-                    str "C88247_1" } ,
-                descr {
-                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
- sp.]" ,
-                  molinfo {
-                    biomol peptide ,
-                    tech concept-trans } } ,
-                inst {
-                  repr raw ,
-                  mol aa ,
-                  length 174 ,
-                  seq-data
-                    ncbieaa "MMYFMFLFGFCFVFWMVGVSCNPSPYYGVLSLVLGAASGCGVLVGMGGS
-FMSLVLFLIYLGGMLVVFAYSSALVVDPYPAGWGGLGGLVYVVGFVLLVLGLVVMGSFLCGVEGFGEVTADGVGLCVV
-RLDFGGVSWFYYYGSVMFLISGWGLLLTLFVVLEMVRGLSCGTLHSI" } ,
-                annot {
-                  {
-                    data
-                      ftable {
-                        {
-                          data
-                            prot {
-                              name {
-                                "NADH dehydrogenase subunit 6" } } ,
-                          location
-                            int {
-                              from 0 ,
-                              to 173 ,
-                              id
-                                local
-                                  str "C88247_1" } } } } } } } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        cdregion {
-                          frame one ,
-                          code {
-                            id 2 } } ,
-                      product
-                        whole
-                          local
-                            str "C88247_1" ,
-                      location
-                        int {
-                          from 86 ,
-                          to 610 ,
-                          strand minus ,
-                          id
-                            local
-                              str "C88247" } } } } } } ,
-          set {
-            class nuc-prot ,
-            descr {
-              source {
-                genome mitochondrion ,
-                org {
-                  taxname "Test sp." ,
-                  orgname {
-                    mgcode 2 } } } ,
-              pub {
-                pub {
-                  gen {
-                    cit "Unpublished" ,
-                    authors {
-                      names
-                        std {
-                          {
-                            name
-                              name {
-                                last "MENG" ,
-                                first "Guanliang" ,
-                                initials "G." } } } } ,
-                    title "MitoZ: a toolkit for animal mitochondrial genome
- assembly,annotation and visualization; doi:
- https://doi.org/10.1093/nar/gkz173" } } } ,
-              user {
-                type
-                  str "NcbiCleanup" ,
-                data {
-                  {
-                    label
-                      str "method" ,
-                    data
-                      str "SeriousSeqEntryCleanup" } ,
-                  {
-                    label
-                      str "version" ,
-                    data
-                      int 8 } ,
-                  {
-                    label
-                      str "month" ,
-                    data
-                      int 3 } ,
-                  {
-                    label
-                      str "day" ,
-                    data
-                      int 28 } ,
-                  {
-                    label
-                      str "year" ,
-                    data
-                      int 2020 } } } ,
-              create-date
-                std {
-                  year 2020 ,
-                  month 3 ,
-                  day 28 } } ,
-            seq-set {
-              seq {
-                id {
-                  local
-                    str "C102131" } ,
-                descr {
-                  title "topology=linear" ,
-                  molinfo {
-                    biomol genomic } } ,
-                inst {
-                  repr raw ,
-                  mol dna ,
-                  length 2353 ,
-                  seq-data
-                    iupacna "TATATATAATATAATATAATATATATAATATAATGGGTGCTTTTATTTC
-CACTTAGCGCCGGAATTAACATTATGTCAGTTTAGTTGCTCTCGGATTTAGGGGTTTGACGAGAATTAAGTGGCTACT
-CGGGCTTGTGTTAGTTTTTATGGGGGGTAGGGGGGTTTAGTTAGAAAAGTATGTAGTTTTAAATTGTTTAGGTTGAAA
-ATTACTGTCGTGAGTTTTTGCAAAATTTTATGTCCTACTAGCATTAATTAAATAATACCATATCAAGTTATGTAAGAC
-CAACCAACTTGAACGAGGGTTCAGTTTCATTGAGTCGGCAGACATCACGACTATGGGGGCCTGAAGACACAAAGAGAA
-AAATAAAACTACTATATGCAAGTAAAACCACCGTATGCCAGGTTATAAACTTAATGTATAGAACACATTAACCAGAGG
-CCTTTTAAAAAGAGACGTATGAACTTTATTAGTATAATGTGCCTGAAAAAACAACCAGAGGCCAGAATAAATCAGTTA
-TGTACGCCATCTATTACATGGACGTAGAAACTAGTGATGTTGTATCTTACTGACAAGGGTTGCTTATCTCTCGTGATT
-AGGTAGATTAATAAATAACCAGGTACTGCGGCGATAGTCATGGTGTAGAATAACTATTTAACTTTATGTCCTGAAATC
-ATTATATTAATAATACCTGTATAATATTCATGTTGATATAATTTGTATGTGAAATTAATAAATTTATGTAAATGTCAA
-ATTAAGTAATAACATTGTTAAAGATATGCTAACGGAAAATAGATGAATGCACGATAATACATAGAGAGTATTATATGA
-ATAATTTCTACCTAGCAGTGGTAGGTAAAAATGGGCTTATGTTTAGCGTTTATGCCCGATCCACCTTTGTGGGGGGGA
-GGGGGGGGTACCTTTAAATTTCTACCTAGCAGTGGTAGGTAAAAATGGGCTTATGTTTAGCGTTTATGCCCGATCTCT
-ACCATCAAGAGGTAGTTTAATAAAAGATCTCAGCTTTGGGAGCTGGGGATGAAGGTTAAAGTCCTTCTCTTTTGATAT
-TCTAGGAAGGTTGATAGTCTTCAGTCTTTGGTTTACAAGACCAATGCTTTAAATGGGTTAAGCTACTAGAATACTTTT
-AAGTTAGTATTTTGTTTTCAATTACACCTGCGACGGGGATAAGGATTAATAGGGTTGAGAAGTAGAGAATGGAGGCTA
-CTTGGCCAATTGTAATAAATGGGTTTTCAACGGGTTGTCCTCCGATTCATGTTAGTACTAGAAGGTTGGCGATAAAAG
-ACCAGAATAGGGTTTGTGTAAGTGGTCGGAATTGGGTTGTTCGTTGTTTTGATGTGTGTAGGGCGGGTATTAAGAATA
-ATACGAGGATGGAGAGTAGTAGGGCAAGTACGCCACCTAATTTGTTTGGGACAGATCGTAGGATTGCGTAAGCGAAAA
-GAAAGTATCATTCTGGTTTAATATGTGGTGGGGTAGATAGGGGGTTGGCTGGTGTGAAATTATCTGGGTCCCCTAAAA
-GGTTTGGAGAGAATAGTGTTAGGGTTAGTAGGAGGGTTAGTATTAGAATGACGCCTAAAAGGTCTTTATATGAGAAAT
-AAGGGTGGAATGGGATTTTGTCAGTGTTTGAGTTTAATCCTGTTGGGTTGTTTGATCCAGTTTCATGTAGAAAAAGTA
-GGTGTACTATTGTTAGACCTATGATTGTAAATGGTAGAAGGAAGTGAAGGGTAAAAAATCGGGTTAAGGTTGCGTTGT
-CTACTGAGAATCCACCTCAGATTCATTGTACTAATGTGTTACCAATGAATGGGATGGCTGAGAGGAGGTTAGTAATAA
-CGGTGGCACCTCAGAAGGATATTTGGCCCCATGGTAGGACATAACCCATGAATGCAGTGGCTATTGTTAGGAGTAGTA
-GGATAATTCCTGTGTTTCAGGTTTCTTTGTATAGGTATGAGCCGTAATAGAGTCCTCGTCCGATGTGAAGGTAGATGC
-ATATGAAGAAGAGGGAGGCGCCGTTAGCATGTATATTACGGATGAGTCATCCGTATTGTACGTCTCGGGTGATATGGG
-CTACTGATGAGAATGCTAGTGAAATGTTTGGGGAGTAGTGTATAGCTAGGAAAATTCCAGTAATGGTTTGTAGAATTA
-AGCAGGTACCTAGTAAGGATCCAAAGTTTCATCAGGCAGAGATGTTGGAGGGGCTTGGTAGATCAATGAATGAGTTGT
-TGATGATTTTTGTTAGTGGGTGGGTTTTTCGGTGGTTTATGGTCATGGTTTTATTATAGTTGAAAACAACGGTGGTTT
-TTCAAACCACAAGTCTCGGTTTAAATCCGAGTAATAATTATG" } ,
-                annot {
-                  {
-                    data
-                      ftable {
-                        {
-                          data
-                            gene {
-                              locus "CYTB" } ,
-                          location
-                            int {
-                              from 1139 ,
-                              to 2278 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102131" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnP(ugg)" } ,
-                          location
-                            int {
-                              from 990 ,
-                              to 1059 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102131" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 80 } } ,
-                          location
-                            int {
-                              from 990 ,
-                              to 1059 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102131" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnT(ugu)" } ,
-                          location
-                            int {
-                              from 1060 ,
-                              to 1134 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102131" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 84 } } ,
-                          location
-                            int {
-                              from 1060 ,
-                              to 1134 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102131" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnE(uuc)" } ,
-                          location
-                            int {
-                              from 2282 ,
-                              to 2349 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102131" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 69 } } ,
-                          location
-                            int {
-                              from 2282 ,
-                              to 2349 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102131" } } } } } } ,
-              seq {
-                id {
-                  local
-                    str "C102131_1" } ,
-                descr {
-                  title "cytochrome b (mitochondrion) [Test sp.]" ,
-                  molinfo {
-                    biomol peptide ,
-                    tech concept-trans } } ,
-                inst {
-                  repr raw ,
-                  mol aa ,
-                  length 379 ,
-                  seq-data
-                    ncbieaa "MTMNHRKTHPLTKIINNSFIDLPSPSNISAWWNFGSLLGTCLILQTITG
-IFLAMHYSPNISLAFSSVAHITRDVQYGWLIRNMHANGASLFFMCIYLHIGRGLYYGSYLYKETWNTGIILLLLTMAT
-AFMGYVLPWGQMSFWGATVITNLLSAIPFIGNTLVQWIWGGFSVDNATLTRFFTLHFLLPFTIMGLTMVHLLFLHETG
-SNNPTGLNSNTDKIPFHPYFSYKDLLGVILMLTLLLTLTLFSPNLLGDPDNFTPANPLSTPPHIKPEWYFLFAYAILR
-SVPNKLGGVLALLLSILVLFLMPALHTSKQRTTQFRPLTQTLFWSFIANLLVLTWIGGQPVENPFITIGQVASILYFS
-TLLILIPVAGVIENKMLT" } ,
-                annot {
-                  {
-                    data
-                      ftable {
-                        {
-                          data
-                            prot {
-                              name {
-                                "cytochrome b" } } ,
-                          location
-                            int {
-                              from 0 ,
-                              to 378 ,
-                              id
-                                local
-                                  str "C102131_1" } } } } } } } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        cdregion {
-                          frame one ,
-                          code {
-                            id 2 } } ,
-                      product
-                        whole
-                          local
-                            str "C102131_1" ,
-                      location
-                        int {
-                          from 1139 ,
-                          to 2278 ,
-                          strand minus ,
-                          id
-                            local
-                              str "C102131" } } } } } } ,
-          set {
-            class nuc-prot ,
-            descr {
-              source {
-                genome mitochondrion ,
-                org {
-                  taxname "Test sp." ,
-                  orgname {
-                    mgcode 2 } } } ,
-              pub {
-                pub {
-                  gen {
-                    cit "Unpublished" ,
-                    authors {
-                      names
-                        std {
-                          {
-                            name
-                              name {
-                                last "MENG" ,
-                                first "Guanliang" ,
-                                initials "G." } } } } ,
-                    title "MitoZ: a toolkit for animal mitochondrial genome
- assembly,annotation and visualization; doi:
- https://doi.org/10.1093/nar/gkz173" } } } ,
-              user {
-                type
-                  str "NcbiCleanup" ,
-                data {
-                  {
-                    label
-                      str "method" ,
-                    data
-                      str "SeriousSeqEntryCleanup" } ,
-                  {
-                    label
-                      str "version" ,
-                    data
-                      int 8 } ,
-                  {
-                    label
-                      str "month" ,
-                    data
-                      int 3 } ,
-                  {
-                    label
-                      str "day" ,
-                    data
-                      int 28 } ,
-                  {
-                    label
-                      str "year" ,
-                    data
-                      int 2020 } } } ,
-              create-date
-                std {
-                  year 2020 ,
-                  month 3 ,
-                  day 28 } } ,
-            seq-set {
-              seq {
-                id {
-                  local
-                    str "C102429" } ,
-                descr {
-                  title "topology=linear" ,
-                  molinfo {
-                    biomol genomic } } ,
-                inst {
-                  repr raw ,
-                  mol dna ,
-                  length 2958 ,
-                  seq-data
-                    iupacna "GGGGTATGGGCCCAATAGCTTAGTTAGCTGACTTTACTAGGATGTAGTA
-TAATTGGAAGTATAGGGAGTTTTGATCTCTCTGGTGTAGGTTCGAGTCCTATTTTTCTAAGGAGACGAGAGGGTTTTA
-GCCTCTATTATTCACCCTATCAAGGTAACCCTTTAAATTCAGGCACGTGTCCTATAGTATTGGAGGTAGTCCGGAGGA
-GGTGATTGGTATTGATATATGTCAAAGACATAATGCTAGGGTGATGGGAAGGAAGTTTTTTCATAATAGGTGCATTAG
-TTGATCGTATCGAAATCGTGGGTATGAGGCTCGGACTCATAGGAATCCTGCTGAGAGTAGTATTACTTTTGATATTAG
-TGATAAGGAGAATAATTCTGGGGTGTTGTTTATGCGGGCTGGGTTAAGGAATAGGATAGTTGTAAGAGTGTTTATTAT
-TAGAATGTTTGCATATTCTGCTAAAAAGAATAGGGCGAATGGTCCGGCGGAGTATTCAATATTAAATCCGGATACTAG
-TTCGGATTCTCCTTCGGTTAGGTCGAATGGTGCCCGATTTGTTTCTGCTAATGTGGAGATGTATCATATTATTATTAG
-GGGTCAGGATGAGAATATTAGGTATATTGGTTCTTGTGTAATTATGAATGTTTGTAGGTTAAATCCACCAGAGAGTAA
-GGTTAATGAGAGTAGGATAATTCCTAGGGTTACTTCGTATGAGATAGTTTGGGCTACTGCTCGTAGGGCGCCTATTAG
-AGCGTATTTGGAATTTGAAGCCCAACCAGATCATAGGATAGAGTAAACTATGAAGCTAGATATGGAGATTAGGAATAG
-AAGGCCTAGATTTAGGTCAGCTAGCGGAAATGGTAGGGGTAGTGGAAGTCAAATTGATAAGGCTAACAATAAGGCTAG
-GATTGGTGATATTATGAATAATGTGGTGGATGAATTTAGGGGACGAATTGGTTCTTTGATGAAAAGTTTTATACCATC
-TGCTACTGGCTGTAGTAGTCCATATGGACCTACGATATTTGGTCCTTTTCGAAGTTGTATGTATCCTAGTACTTTTCG
-TTCTAGTAGGGTGAAAAAGGCAACAGCAATTAAGATTGGAATTATATATATGAGTGGGGGTATTAGGTTTGATAATAA
-GGGGTTTATAATTGGAGAGGGGAGTTGAACCCCTGGATAAAGGGTTTAGGCCTTTTGCATTATTACCTGGCTCTGCCA
-CCCCAATTTGGCCCTTGTTTTGAGGCTGTGGTTTCCGTTTTAAATTATTAGTTGAGTTGTTTTCACTAATGTAAGGTA
-AGGCTTGTTTTTAATATAGGCCTTGTCTTTTCGGTCCTTTCGTACTGGAGAAGACTTAGGGTTCATATAGATAGAAAC
-CGACCTGGATTGCTCCGGTCTGAACTCAGATCACGTAGGACTATTAATCGTTGAACAAACGAACCCTTGATAGCGGTT
-TCACCATCAGGATGTCCTGATCCAACATCGAGGTCGTAAACCCCATCGTTGATAAGGGCTCTAGGATGGGATTGCGCT
-GTTATCCCTGGGGTAGCTTGGTTCGTTGATCAAATATATTGGATCTTTTTACTGTTAGCACTTTGAATTGTAAGTCTA
-GGTTTAAAAGAAGTATGTTCTTTTTTCGGAGGTTTTGTTTTGCTCCGAGGTCGCCCCAACCGAAAACGTAGATCATGT
-ACTGGTTGATTATAAATCCTTAGTTGGGTATATTATGGTAGTTGATTTGTGTTTAAAGTTCCACAGGGTCTTCTCGTC
-TTATATGGTTATCCCCGCTTTTGCACGGGGAGATCAATTTCACTGATTATCTGTAAGAGACAGGTAGAACCTCGTTTG
-GCCATTCATTCTAGTCTTTATTTGGAAGACAAGTGATTACGCTACCTTTGCACGGTTAGGATACCGCGGCCGTTAAAA
-CAGTGTCACTGGGCAGGCATTACCCCTAATACTTGTATGTTGCTAGGGGCTATGTTTTTGGTAAACAGTCGGGTTCGC
-TTAGTTTGCCTAGTTCCTTTTACAGATTTTAATCTTTCTTACATGCGCTCCTGTGTTGGGTTAACAGTTTAGTTATAT
-GGTGTTTTAAGTGTTGTTGTTTCATATAGTATTGGTTGTTAATAATCAGTAGTCTGTCTATTATGATTTAAGCTAGCG
-CGCAAGAGAAGTTTTTCCTTCTTGTTACTCATTTTAGCATTAGTTCTTCTATGGGGGTAGAGTGGCTCAGTGTTATTT
-GGGGATAAAAGTTTTATGTTAATATTTATATAATGGTGAGCTTTGACGCTTTCTTTTGATGGTGGCTGCTTTAAAGCC
-TACGGTGTTTTATTTTGGTGTTTTGTCCTCTATTTTAGGTTGTGTCCTTTTTCAATTGGGCTGTACCCCAATTGAATA
-TATCTTAAACTTTTCTTTTGGTAAGCTTTAGGTTGTTTTTAGAAAATTTAAGGTTGAACTTACATTCATTTATTGAGC
-AACCAGCTATCACCAAGTTCGATAGGCTTTTCACTTCTACTTATAGGTCCTTCCACTCTTTTGCCACAGAGACGGATT
-TAGCCTGTGATATTGGCTGCCTTTAAGTAGCTCACTTGGTTTCGGGGGTTTAGACTTTAGTTCTCTTTGCTTAATTGT
-GCTGGTTAAATCATGATGCAGAAGGTATAAGGGTTAATCTTTGCTTTTTATTGCTTAGTGGTTTTTCATGTTTTTCAT
-CTTTCCCTTGCGGTACTGTCTTTATCGCTCCTGTTCCCTTTTCTATCACCTATACTTAGATGGTAAAATGTTTTGGTT
-TAAGTTTTTGGTAGTATGATTTTGTTTTTGGGGTTATTGTTTGTTGTCGGGCTAGATTTTTGCTCAAAATAGTCTTGT
-TTAATAGACATCTTTCAGGTGTAAGCTGAATGCTTTTTGTTAAGCTATGTTTTGATATTCCAAGTGCACCTTCCGGTG
-TACTTACCTTGTTACGACTTGCC" } ,
+                    iupacna "CTAGCCTTTCTATTAGCTCTTAGTAAGATTACACATGCAAGCATCCCCG
+TTCCAGTGAGTTCACCCTCTAAATCACCACGATCAAAAGGGACAAGCATCAAGCACGCAGCAATGCAGCTCAAAACGC
+TTAGCCTAGCCACACCCCCACGGGAAACAGCAGTGATTAACCTTTAGCAATAAACGAAAGTTTAACTAAGCTATACTA
+ACCCCAGGGTTGGTCAATTTCGTGCCAGCCACCGCGGTCACACGATTAACCCAAGTCAATAGAAGCCGGCGTAAAGAG
+TGTTTTAGATCACCCCCTCCCCAATAAAGCTAAAACTCACCTGAGTTGTAAAAAACTCCAGTTGACACAAAATAGACT
+ACGAAAGTGGCTTTAACATATCTGAACACACAATAGCTAAGACCCAAACTGGGATTAGATACCCCACTATGCTTAGCC
+CTAAACCTCAACAGTTAAATCAACAAAACTGCTCGCCAGAACACTACGAGCCACAGCTTAAAACTCAAAGGACCTGGC
+GGTGCTTCATATCCCTCTAGAGGAGCCTGTTCTGTAATCGATAAACCCCGATCAACCTCACCACCTCTTGCTCAGCCT
+ATATACCGCCATCTTCAGCAAACCCTGATGAAGGCTACAAAGTAAGCGCAAGTACCCACGTAAAGACGTTAGGTCAAG
+GTGTAGCCCATGAGGTGGCAAGAAATGGGCTACATTTTCTACCCCAGAAAACTACGATAGCCCTTATGAAACTTAAGG
+GTCGAAGGTGGATTTAGCAGTAAACTGAGAGTAGAGTGCTTAGTTGAACAGGGCCCTGAAGCGCGTACACACCGCCCG
+TCACCCTCCTCAAGTATACTTCAAAGGACATTTAACTAAAACCCCTACGCATTTATATAGAGGAGACAAGTCGTAACA
+TGGTAAGTGTACTGGAAAGTGCACTTGGACGAACCAGAGTGTAGCTTAACACAAAGCACCCAACTTACACTTAGGAGA
+TTTCAACTTAACTTGACCGCTCTGAGCTAAACCTAGCCCCAAACCCACTCCACCTTACTACCAGACAACCTTAGCCAA
+ACCATTTACCCAAATAAAGTATAGGCGATAGAAATTGAAACCTGGCGCAATAGATATAGTACCGCAAGGGAAAGATGA
+AAAATTATAACCAAGCATAATATAGCAAGGACTAACCCCTATACCTTCTGCATAATGAATTAACTAGAAATAACTTTG
+CAAGGAGAGCCAAAGCTAAGACCCCCGAAACCAGACGAGCTACCTAAGAACAGCTAAAAGAGCACACCCGTCTATGTA
+GCAAAATAGTGGGAAGATTTATAGGTAGAGGCGACAAACCTACCGAGCCTGGTGATAGCTGGTTGTCCAAGATAGAAT
+CTTAGTTCAACTTTAAATTTGCCCACAGAACCCTCTAAATCCCCTTGTAAATTTAACTGTTAGTCCAAAGAGGAACAG
+CTCTTTGGACACTAGGAAAAAACCTTGTAGAGAGAGTAAAAAATTTAACACCCATAGTAGGCCTAAAAGCAGCCACCA
+ATTAAGAAAGCGTTCAAGCTCAACACCCACTACCTAAAAAATCCCAAACATATAACTGAACTCCTCACACCCAATTGG
+ACCAATCTATCACCCTATAGAAGAACTAATGTTAGTATAAGTAACATGAAAACATTCTCCTCCGCATAAGCCTGCGTC
+AGATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTAAAACACTGAACTGACAATTAACAGCCCAATATCTACAATCAAC
+CAACAAGTCATTATTACCCTCACTGTCAACCCAACACAGGCATGCTCATAAGGAAAGGTTAAAAAAAGTAAAAGGAAC
+TCGGCAAATCTTACCCCGCCTGTTTACCAAAAACATCACCTCTAGCATCACCAGTATTAGAGGCACCGCCTGCCCAGT
+GACACATGTTTAACGGCCGCGGTACCCTAACCGTGCAAAGGTAGCATAATCACTTGTTCCTTAAATAGGGACCTGTAT
+GAATGGCTCCACGAGGGTTCAGCTGTCTCTTACTTTTAACCAGTGAAATTGACCTGCCCGTGAAGAGGCGGGCATGAC
+ACAGCAAGACGAGAAGACCCTATGGAGCTTTAATTTATTAATGCAAACAGTACCTAACAAACCCACAGGTCCTAAACT
+ACCAAACCTGCATTAAAAATTTCGGTTGGGGCGACCTCGGAGCAGAACCCAACCTCCGAGCAGTACATGCTAAGACTT
+CACCAGTCAAAGCGAACTACTATACTCAATTGATCCAATAACTTGACCAACGGAACAAGTTACCCTAGGGATAACAGC
+GCAATCCTATTCTAGAGTCCATATCAACAATAGGGTTTACGACCTCGATGTTGGATCAGGACATCCCGATGGTGCAGC
+CGCTATTAAAGGTTCGTTTGTTCAACGATTAAAGTCCTACGTGATCTGAGTTCAGACCGGAGTAATCCAGGTCGGTTT
+CTATCTACTTCAAATTCCTCCCTGTACGAAAGGACAAGAGAAATAAGGCCTACTTCACAAAGCGCCTTCCCCCGTAAA
+TGATATCATCTCAACTTAGTATTATACCCACACCCACCCAAGAACAGGGTTTGTTAAGATGGCAGAGCCCGGTAATCG
+CATAAAACTTAAAACTTTACAGTCAGAGGTTCAATTCCTCTTCTTAACAACATACCCATGGCCAACCTCCTACTCCTC
+ATTGTACCCATTCTAATCGCAATGGCATTCCTAATGCTTACCGAACGAAAAATTCTAGGCTATATACAACTACGCAAA
+GGCCCCAACGTTGTAGGCCCCTACGGGCTACTACAACCCTTCGCTGACGCCATAAAACTCTTCACCAAAGAGCCCCTA
+AAACCCGCCACATCTACCATCACCCTCTACATCACCGCCCCGACCTTAGCTCTCACCATCGCTCTTCTACTATGAACC
+CCCCTCCCCATACCCAACCCCCTGGTCAACCTCAACCTAGGCCTCCTATTTATTCTAGCCACCTCTAGCCTAGCCGTT
+TACTCAATCCTCTGATCAGGGTGAGCATCAAACTCAAACTACGCCCTGATCGGCGCACTGCGAGCAGTAGCCCAAACA
+ATCTCATATGAAGTCACCCTAGCCATCATTCTACTATCAACATTACTAATAAGTGGCTCCTTTAACCTCTCCACCCTT
+ATCACAACACAAGAACACCTCTGATTACTCCTGCCATCATGACCCTTGGCCATAATATGATTTATCTCCACACTAGCA
+GAGACCAACCGAACCCCCTTCGACCTTGCCGAAGGGGAGTCCGAACTAGTCTCAGGCTTCAACATCGAATACGCCGCA
+GGCCCCTTCGCCCTATTCTTCATAGCCGAATACACAAACATTATTATAATAAACACCCTCACCACTACAATCTTCCTA
+GGAACAACATATGACGCACTCTCCCCTGAACTCTACACAACATATTTTGTCACCAAGACCCTACTTCTAACCTCCCTG
+TTCTTATGAATTCGAACAGCATACCCCCGATTCCGCTACGACCAACTCATACACCTCCTATGAAAAAACTTCCTACCA
+CTCACCCTAGCATTACTTATATGATATGTCTCCATACCCATTACAATCTCCAGCATTCCCCCTCAAACCTAAGAAATA
+TGTCTGATAAAAGAGTTACTTTGATAGAGTAAATAATAGGAGCTTAAACCCCCTTATTTCTAGGACTATGAGAATCGA
+ACCCATCCCTGAGAATCCAAAATTCTCCGTGCCACCTATCACACCCCATCCTAAAGTAAGGTCAGCTAAATAAGCTAT
+CGGGCCCATACCCCGAAAATGTTGGTTATACCCTTCCCGTACTAATTAATCCCCTGGCCCAACCCGTCATCTACTCTA
+CCATCTTTGCAGGCACACTCATCACAGCGCTAAGCTCGCACTGATTTTTTACCTGAGTAGGCCTAGAAATAAACATGC
+TAGCTTTTATTCCAGTTCTAACCAAAAAAATAAACCCTCGTTCCACAGAAGCTGCCATCAAGTATTTCCTCACGCAAG
+CAACCGCATCCATAATCCTTCTAATAGCTATCCTCTTCAACAATATACTCTCCGGGCAATGAACCATAACCAATACTA
+CCAATCAATACTCATCATTAATAATCATAATGGCTATAGCAATAAAACTAGGAATAGCCCCCTTTCACTTCTGAGTCC
+CAGAGGTTACCCAAGGCACCCCTCTGACATCCGGCCTGCTTCTTCTCACATGACAAAAACTAGCCCCCATCTCAATCA
+TATACCAAATCTCTCCCTCACTAAACGTAAGCCTTCTCCTCACTCTCTCAATCTTATCCATCATGGCAGGCAGTTGAG
+GTGGATTAAACCAAACCCAGCTACGCAAAATCTTAGCATACTCCTCAATTACCCACATAGGATGAATAATAGCAGTTC
+TACCGTACAACCCTAACATAACCATTCTTAATTTAACTATTTATATTATCTTAACTACTACCGCATTCCTACTACTCA
+ACTTAAACTCCAGCACCACGACCCTACTACTATCTCGCACCTGAAACAAGCTAACATGACTAACACCCTTAATTCCAT
+CCACCCTCCTCTCCCTAGGAGGCCTGCCCCCGCTAACCGGCTTTTTGCCCAAATGGGCCATTATCGAAGAATTCACAA
+AAAACAATAGCCTCATCATCCCCACCATCATAGCCACCATCACCCTCCTTAACCTCTACTTCTACCTACGCCTAATCT
+ACTCCACCTCAATCACACTACTCCCCATATCTAACAACGTGAAAATAAAATGACAGTTTGAACATACAAAACCCACCC
+CATTCCTCCCCACACTCATCGCCCTTACCACGCTACTCCTACCTATCTCCCCTTTTATACTAATAATCTTATAGAAAT
+TTAGGTTAAATACAGACCAAGAGCCTTCAAAGCCCTCAGTAAGTTGCAATACTTAATTTCTGTAACAGCTAAGGACTG
+CAAAACCCCACTCTGCATCAACTGAACGCAAATCAGCCACTTTAATTAAGCTAAGCCCTTACTAGACCAATGGGACTT
+AAACCCACAAACACTTAGTTAACAGCTAAGCACCCTAATCAACTGGCTTCAATCTACTTCTCCCGCCGCCGGGAAAAA
+AGGCGGGAGAAGCCCCGGCAGGTTTGAAGCTGCTTCTTCGAATTTGCAATTCAATATGAAAATCACCTCGGAGCTGGT
+AAAAAGAGGCCTAACCCCTGTCTTTAGATTTACAGTCCAATGCTTCACTCAGCCATTTTACCTCACCCCCACTGATGT
+TCGCCGACCGTTGACTATTCTCTACAAACCACAAAGACATTGGAACACTATACCTATTATTCGGCGCATGAGCTGGAG
+TCCTAGGCACAGCTCTAAGCCTCCTTATTCGAGCCGAGCTGGGCCAGCCAGGCAACCTTCTAGGTAACGACCACATCT
+ACAACGTTATCGTCACAGCCCATGCATTTGTAATAATCTTCTTCATAGTAATACCCATCATAATCGGAGGCTTTGGCA
+ACTGACTAGTTCCCCTAATAATCGGTGCCCCCGATATAGCGTTTCCCCGCATAAACAACATAAGCTTCTGACTCTTAC
+CTCCCTCTCTCCTACTCCTGCTCGCATCTGCTATAGTGGAGGCCGGAGCAGGAACAGGTTGAACAGTCTACCCTCCCT
+TAGCAGGGAACTACTCCCACCCTGGAGCCTCCGTAGACCTAACCATCTTCTCCTTACACCTAGCAGGTGTCTCCTCTA
+TCTTAGGGGCCATCAATTTCATCACAACAATTATCAATATAAAACCCCCTGCCATAACCCAATACCAAACGCCCCTCT
+TCGTCTGATCCGTCCTAATCACAGCAGTCCTACTTCTCCTATCTCTCCCAGTCCTAGCTGCTGGCATCACTATACTAC
+TAACAGACCGCAACCTCAACACCACCTTCTTCGACCCCGCCGGAGGAGGAGACCCCATTCTATACCAACACCTATTCT
+GATTTTTCGGTCACCCTGAAGTTTATATTCTTATCCTACCAGGCTTCGGAATAATCTCCCATATTGTAACTTACTACT
+CCGGAAAAAAAGAACCATTTGGATACATAGGTATGGTCTGAGCTATGATATCAATTGGCTTCCTAGGGTTTATCGTGT
+GAGCACACCATATATTTACAGTAGGAATAGACGTAGACACACGAGCATATTTCACCTCCGCTACCATAATCATCGCTA
+TCCCCACCGGCGTCAAAGTATTTAGCTGACTCGCCACACTCCACGGAAGCAATATGAAATGATCTGCTGCAGTGCTCT
+GAGCCCTAGGATTCATCTTTCTTTTCACCGTAGGTGGCCTGACTGGCATTGTATTAGCAAACTCATCACTAGACATCG
+TACTACACGACACGTACTACGTTGTAGCTCACTTCCACTATGTCCTATCAATAGGAGCTGTATTTGCCATCATAGGAG
+GCTTCATTCACTGATTTCCCCTATTCTCAGGCTACACCCTAGACCAAACCTACGCCAAAATCCATTTCACTATCATAT
+TCATCGGCGTAAATCTAACTTTCTTCCCACAACACTTTCTAGGCCTATCCGGAATGCCCCGACGTTACTCGGACTACC
+CCGATGCATACACCACATGAAACATCCTATCATCTGTAGGCTCATTCATTTCTCTAACAGCAGTAATATTAATAATTT
+TCATGATTTGAGAAGCCTTCGCTTCGAAGCGAAAAGTCCTAATAGTAGAAGAACCCTCCATAAACCTGGAGTGACTAT
+ATGGATGCCCCCCACCCTACCACACATTCGAAGAACCCGTATACATAAAATCTAGACAAAAAAGGAAGGAATCGAACC
+CCCCAAAGCTGGTTTCAAGCCAACCCCATGGCCTCCATGACTTTTTCAAAAAGGTATTAGAAAAACCATTTCATAACT
+TTGTCAAAGTTAAATTATAGGCTAAATCCTATATATCTTAATGGCACATGCAGCGCAAGTAGGTCTACAAGACGCTAC
+TTCCCCTATCATAGAAGAGCTTATCACCTTTCATGATCACGCCCTCATAATCATTTTCCTTATCTGCTTCCTAGTCCT
+GTATGCCCTTTTCCTAACACTCACAACAAAACTAACTAATACTAACATCTCAGACGCTCAGGAAATAGAAACCGTCTG
+AACTATCCTGCCCGCCATCATCCTAGTCCTCATCGCCCTCCCATCCCTACGCATCCTTTACATAACAGACGAGGTCAA
+CGATCCCTCCCTTACCATCAAATCAATTGGCCACCAATGGTACTGAACCTACGAGTACACCGACTACGGCGGACTAAT
+CTTCAACTCCTACATACTTCCCCCATTATTCCTAGAACCAGGCGACCTGCGACTCCTTGACGTTGACAATCGAGTAGT
+ACTCCCGATTGAAGCCCCCATTCGTATAATAATTACATCACAAGACGTCTTGCACTCATGAGCTGTCCCCACATTAGG
+CTTAAAAACAGATGCAATTCCCGGACGTCTAAACCAAACCACTTTCACCGCTACACGACCGGGGGTATACTACGGTCA
+ATGCTCTGAAATCTGTGGAGCAAACCACAGTTTCATGCCCATCGTCCTAGAATTAATTCCCCTAAAAATCTTTGAAAT
+AGGGCCCGTATTTACCCTATAGCACCCCCTCTACCCCCTCTAGAGCCCACTGTAAAGCTAACTTAGCATTAACCTTTT
+AAGTTAAAGATTAAGAGAACCAACACCTCTTTACAGTGAAATGCCCCAACTAAATACTACCGTATGGCCCACCATAAT
+TACCCCCATACTCCTTACACTATTCCTCATCACCCAACTAAAAATATTAAACACAAACTACCACCTACCTCCCTCACC
+AAAGCCCATAAAAATAAAAAATTATAACAAACCCTGAGAACCAAAATGAACGAAAATCTGTTCGCTTCATTCATTGCC
+CCCACAATCCTAGGCCTACCCGCCACAGTACTGATCATTCTATTTCCCCCTCTATTGATCCCCACCTCCAAATATCTC
+ATCAACAACCGACTAATCACCACCCAACAATGACTAATCAAACTAATCTCAAAACAAATGATAGCCATACACAACACT
+AAAGGACGAACCTGATCTCTTATACTAGTATCCTTAATCATTTTTATTGCCACAACTAACCTCCTCGGACTCCTGCCT
+CACTCATTTACACCAACCACCCAACTATCTATAAACCTAGCCATGGCCATCCCCTTATGAGCGGGCGCAGTGATTATA
+GGCTTTCGCTCTAAGATTAAAAATGCCCTAGCCCACTTCTTACCACAAGGCACACCTACACCCCTTATCCCCATACTA
+GTTATTATCGAAACCATCAGCCTACTCATTCAACC" } ,
                 annot {
                   {
                     data
@@ -592,108 +246,87 @@ TACTTACCTTGTTACGACTTGCC" } ,
                               locus "ND1" } ,
                           location
                             int {
-                              from 178 ,
-                              to 1149 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102429" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnQ(uug)" } ,
-                          location
-                            int {
-                              from 37 ,
-                              to 108 ,
+                              from 2752 ,
+                              to 3708 ,
                               strand plus ,
                               id
                                 local
-                                  str "C102429" } } ,
+                                  str "scaffold2433_FivePCGs" } } ,
                         {
                           data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 81 } } ,
+                            gene {
+                              locus "ND2" } ,
                           location
                             int {
-                              from 37 ,
-                              to 108 ,
+                              from 3919 ,
+                              to 4959 ,
                               strand plus ,
                               id
                                 local
-                                  str "C102429" } } ,
+                                  str "scaffold2433_FivePCGs" } } ,
                         {
                           data
                             gene {
-                              locus "trnI(gau)" } ,
+                              locus "COX1" } ,
                           location
                             int {
-                              from 108 ,
-                              to 178 ,
-                              strand minus ,
+                              from 5349 ,
+                              to 6890 ,
+                              strand plus ,
                               id
                                 local
-                                  str "C102429" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 73 } } ,
-                          location
-                            int {
-                              from 108 ,
-                              to 178 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102429" } } ,
+                                  str "scaffold2433_FivePCGs" } } ,
                         {
                           data
                             gene {
-                              locus "trnL(uaa)" } ,
+                              locus "COX2" } ,
                           location
                             int {
-                              from 1150 ,
-                              to 1225 ,
-                              strand minus ,
+                              from 7031 ,
+                              to 7714 ,
+                              strand plus ,
                               id
                                 local
-                                  str "C102429" } } ,
+                                  str "scaffold2433_FivePCGs" } } ,
                         {
                           data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 76 } } ,
+                            gene {
+                              locus "ATP8" } ,
                           location
                             int {
-                              from 1150 ,
-                              to 1225 ,
-                              strand minus ,
+                              from 7811 ,
+                              to 8017 ,
+                              strand plus ,
                               id
                                 local
-                                  str "C102429" } } ,
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 7972 ,
+                              to 8427 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" ,
+                              fuzz-to
+                                lim gt } } ,
                         {
                           data
                             gene {
                               locus "trnV(uac)" } ,
                           location
                             int {
-                              from 2842 ,
-                              to 2910 ,
-                              strand minus ,
+                              from 941 ,
+                              to 1009 ,
+                              strand plus ,
                               id
                                 local
-                                  str "C102429" } } ,
+                                  str "scaffold2433_FivePCGs" } } ,
                         {
                           data
                             rna {
@@ -704,24 +337,386 @@ TACTTACCTTGTTACGACTTGCC" } ,
                                     ncbieaa 86 } } ,
                           location
                             int {
-                              from 2842 ,
-                              to 2910 ,
+                              from 941 ,
+                              to 1009 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 2675 ,
+                              to 2749 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 2675 ,
+                              to 2749 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 3708 ,
+                              to 3776 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 3708 ,
+                              to 3776 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 3774 ,
+                              to 3845 ,
                               strand minus ,
                               id
                                 local
-                                  str "C102429" } } ,
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 3774 ,
+                              to 3845 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 3847 ,
+                              to 3914 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 3847 ,
+                              to 3914 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 4957 ,
+                              to 5024 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 4957 ,
+                              to 5024 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 5032 ,
+                              to 5100 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 5032 ,
+                              to 5100 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 5102 ,
+                              to 5174 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 5102 ,
+                              to 5174 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 5206 ,
+                              to 5271 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 5206 ,
+                              to 5271 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 5272 ,
+                              to 5336 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 5272 ,
+                              to 5336 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 6891 ,
+                              to 6959 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 6891 ,
+                              to 6959 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 6963 ,
+                              to 7030 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 6963 ,
+                              to 7030 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(uuu)" } ,
+                          location
+                            int {
+                              from 7740 ,
+                              to 7809 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 7740 ,
+                              to 7809 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 940 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 940 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "scaffold2433_FivePCGs" } } ,
                         {
                           data
                             gene {
                               locus "l-rRNA" } ,
                           location
                             int {
-                              from 1228 ,
-                              to 2842 ,
-                              strand minus ,
+                              from 1008 ,
+                              to 2674 ,
+                              strand plus ,
                               id
                                 local
-                                  str "C102429" } } ,
+                                  str "scaffold2433_FivePCGs" } } ,
                         {
                           data
                             rna {
@@ -730,16 +725,16 @@ TACTTACCTTGTTACGACTTGCC" } ,
                                 name "16S ribosomal RNA" } ,
                           location
                             int {
-                              from 1228 ,
-                              to 2842 ,
-                              strand minus ,
+                              from 1008 ,
+                              to 2674 ,
+                              strand plus ,
                               id
                                 local
-                                  str "C102429" } } } } } } ,
+                                  str "scaffold2433_FivePCGs" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102429_1" } ,
+                    str "scaffold2433_FivePCGs_1" } ,
                 descr {
                   title "NADH dehydrogenase subunit 1 (mitochondrion) [Test
  sp.]" ,
@@ -749,13 +744,13 @@ TACTTACCTTGTTACGACTTGCC" } ,
                 inst {
                   repr raw ,
                   mol aa ,
-                  length 323 ,
+                  length 318 ,
                   seq-data
-                    ncbieaa "MNPLLSNLMPPLMYMIPILIAVAFFTLLERKVLGYMQLRKGPNIVGPYG
-LLQPVADGMKLFIKEPIRPLNSSTTLFMMSPILALLLALSIWLPLPLPFPLADLNLGLLFLISMSSFMVYSILWSGWA
-SNSKYALMGALRAVAQTISYEVTLGIILLSLTLLSGGFNLQTFMITQEPMYLMFSSWPLMMMWYISTLAETNRAPFDL
-TEGESELVSGFNIEYSAGPFALFFLAEYANILMMNTLTTILFLNPARMNNTPELFSLSLMSKVMLLSAGFLWVRASYP
-RFRYDQLMHLLWKNFLPITLALCLWHMSMPITSSGLPPML" } ,
+                    ncbieaa "MPMANLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPF
+ADAMKLFTKEPLKPATSTITLYITAPTLALTIALLLWTPLPMPNPLVNLNLGLLFILATSSLAVYSILWSGWASNSNY
+ALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGES
+ELVSGFNIEYAAGPFALFFMAEYTNIIMMNTLTTTIFLGTTYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYD
+QLMHLLWKNFLPLTLALLMWYVSMPITISSIPPQT" } ,
                 annot {
                   {
                     data
@@ -768,752 +763,14 @@ RFRYDQLMHLLWKNFLPITLALCLWHMSMPITSSGLPPML" } ,
                           location
                             int {
                               from 0 ,
-                              to 322 ,
+                              to 317 ,
                               id
                                 local
-                                  str "C102429_1" } } } } } } } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        cdregion {
-                          frame one ,
-                          code {
-                            id 2 } } ,
-                      product
-                        whole
-                          local
-                            str "C102429_1" ,
-                      location
-                        int {
-                          from 178 ,
-                          to 1149 ,
-                          strand minus ,
-                          id
-                            local
-                              str "C102429" } } } } } } ,
-          set {
-            class nuc-prot ,
-            descr {
-              source {
-                genome mitochondrion ,
-                org {
-                  taxname "Test sp." ,
-                  orgname {
-                    mgcode 2 } } } ,
-              pub {
-                pub {
-                  gen {
-                    cit "Unpublished" ,
-                    authors {
-                      names
-                        std {
-                          {
-                            name
-                              name {
-                                last "MENG" ,
-                                first "Guanliang" ,
-                                initials "G." } } } } ,
-                    title "MitoZ: a toolkit for animal mitochondrial genome
- assembly,annotation and visualization; doi:
- https://doi.org/10.1093/nar/gkz173" } } } ,
-              user {
-                type
-                  str "NcbiCleanup" ,
-                data {
-                  {
-                    label
-                      str "method" ,
-                    data
-                      str "SeriousSeqEntryCleanup" } ,
-                  {
-                    label
-                      str "version" ,
-                    data
-                      int 8 } ,
-                  {
-                    label
-                      str "month" ,
-                    data
-                      int 3 } ,
-                  {
-                    label
-                      str "day" ,
-                    data
-                      int 28 } ,
-                  {
-                    label
-                      str "year" ,
-                    data
-                      int 2020 } } } ,
-              create-date
-                std {
-                  year 2020 ,
-                  month 3 ,
-                  day 28 } } ,
-            seq-set {
+                                  str "scaffold2433_FivePCGs_1" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102543" } ,
-                descr {
-                  title "topology=linear" ,
-                  molinfo {
-                    biomol genomic } } ,
-                inst {
-                  repr raw ,
-                  mol dna ,
-                  length 9820 ,
-                  seq-data
-                    iupacna "CTACATCCTAGTAAAGTCAGCTAACTAAGCTATTGGGCCCATACCCCAA
-AAATGTTGGTTTAAACCCCTCCTTTACTAATAAACCCATACACAAGTGTAATCATTACTTTAAGCCTAATTATGGGCC
-CCCTACTTACAATATCTAGTAACCATTGAATCATAGCATGAACTGGTCTAGAAATCAGCACCTTAGCCATTATCCCAC
-TAATTGCTAAACAACATCACCCACGAGCAATTGAAGCAGCCACCAAATACTTCCTAACACAAGCAACTGCCTCAACAC
-TAATCTTATTTTCAAGTATTATAAATGCCTGAACACTAGGACAATGAGATATTACACAAATATCAAACAACACTCCAT
-GCATAATCCTAACTACAGCCCTAGCCATCAAATTAGGACTAGCTCCATTTCACTTTTGATTACCAGAAGTACTACAAG
-GGACCACCACAATAACAGCCCTAATCTTAACTACCTGACAAAAATTAGCTCCACTATCCCTACTAGTAATAACCTCTC
-AGTCCCTAAATACACCACTAATATTAACACTAGGACTAACATCTACTCTAATCGGTGGATGATATGGACTAAACCAAA
-CCCAACTACGAAAAATCATAGCCTCATCCTCCATTGCCCACCTAGGATGAATAACTACAATCCTTACTCTATCCCCTA
-AACTCACACTACTTACATTCTACACATACATCATCATAACCTCAACAACATTCCTAATAATTAAAACCCTAGAAACAA
-ACATAATCTCCGTAATAATAACATCATGAACAAAATTACCAACACTAAACACCATAATAATACTAACCCTTATATCAC
-TAGCCGGCCTACCCCCACTAACAGGATTTACTCCTAAATGATTAATCCTCCAAGAGCTGACCAAACAACACATATTTA
-TTATAGCCGCTGCAATAGCCCTAATCTCACTACTTAGCCTATTCTTCTACCTACGAATCTCATACTACACAACCATCA
-CACTACCACCAAACTCAACCAACTATCTACAACAATGACGCCACAAAACCAACAAAAAACTCTACCTAGCCACAATAA
-CCACACTATCTATTACCCTCCTACCAATTACACCAACCCTACTAACCATCCCATAGAAACTTAGGATCGAGCCTATTA
-AACCAGAGGCCTTCAAAGCCCCAAACAAGAGATAGAACCTCTTAGTTTCTGTTAAGGCCTATAAGACTTTATCTTATA
-TCTTATGAATGCAACTCAAACACTTTAATTAAGCTAAGGTCTTACTAGACAAATGGGCCTCGATCCCATAACAATTTA
-GTTAACAGCTAAATACCCAATCCAGCGGGCTTTTGTCTACCTTTCCCGCTCTCTAAAAAGCGGGAAACCCCGGCACCA
-ACTAAAGTGCATCTTCAAATTTGCAATTTGACATGAATTTCACTACGGGGTTTGATAAGAAGAGGAATTAAACCTCTG
-TCAAAAGGTCTACAGCCCAACGCTTAACCACTCAGCCATCTTACCTGTGATTTTTACCCGCTGATTTTTCTCTACCAA
-CCACAAAGACATTGGCACCTTATATTTTATTTTTGGGGCCTGAGCAGGAATAGTAGGCACAGCATTGAGTTTACTAAT
-CCGCGCAGAATTAAGCCAACCAGGTACCCTTTTAGGAGACGACCAGATCTACAATGTTATCGTCACAGCCCATGCTTT
-CATTATAATTTTCTTCATAGTTATACCAATTATAATCGGTGGATTTGGAAATTGACTCGTACCAATGATAATTGGAGC
-ACCAGATATAGCATTTCCACGTATAAACAATATAAGTTTTTGACTCTTACCCCCTTCATTACTATTACTTCTAGCTTC
-ATCAGGAATTGAAGCAGGCGCAGGTACAGGCTGAACTGTATACCCCCCATTAGCCGGAAACCTAGCCCACGCCGGTGC
-CTCTGTAGACCTAACTATCTTTTCTCTCCACTTAGCAGGGGTGTCTTCAATTCTAGGAGCTATCAACTTCATTACTAC
-AGCAATTAACATAAAATCCCCGGCTATATCACAATACCAAACACCCCTATTTGTATGATCAGTACTTATTACAGCTGT
-CCTATTATTACTATCACTACCAGTACTAGCTGCAGGTATCACTATACTATTAACAGACCGAAACCTAAATACAACCTT
-CTTTGACCCTTCAGGAGGAGGAGACCCAATCCTATATCAACACTTATTCTGATTCTTTGGTCACCCCGAAGTATACAT
-CCTAATCCTACCTGGATTCGGCATAATCTCCCATGTTGTCACTTATTACGCTGGCAAAAAAGAACCTTTTGGCTACAT
-AGGAATAGTTTGAGCAATAATATCCATTGGATTCTTAGGCTTCATCGTATGGGCCCACCACATATTTACCGTTGGAAT
-AGACGTAGACACTCGAGCCTATTTTACATCTGCAACAATAATTATTGCCATTCCAACGGGAGTAAAAGTATTCAGCTG
-GTTGGCTACCCTGCATGGCGGAATAGTCAAATGAGATGCCGCCATACTATGAGCCCTTGGCTTCATCTTCCTCTTTAC
-TGTGGGGGGGCTAACAGGCATCGTACTAGCCAATTCATCCTTAGATATTGTACTACATGACACTTATTATGTAGTAGC
-ACATTTCCACTATGTCCTGTCAATAGGGGCTGTATTCGCTATTATAGCAGGATTTACCCATTGATTCCCACTTTTCAC
-AGGATACTCACTACACCAAACTTGAGCAAAAGTACACTTTGGAGTAATATTTGCAGGAGTCAACATAACCTTTTTCCC
-TCAACATTTCCTAGGCCTTGCTGGAATACCACGACGTTATTCTGATTACCCAGACGCATACACCCTATGAAATTCTAT
-CTCATCAATCGGATCCTTAATTTCCTTAGTAGCAGTAATTATAATAATGTTCATTATCTGAGAAGCATTCTCCTCAAA
-ACGAAAAGTTATAAAAGTTGAACTTACAACCACCAATGTAGAGTGAATCCATGGCTGCCCGCCTCCACATCACACCTA
-TGAAGAACCAGCCCATGTACAAACCCAAGAAAGGGGGGAATCGAACCCCCTTAAACTAGTTTCAAGCCAATCACATAA
-CCTTTATGTTTCCTTCTCCTAAGACGTTAGTAAAATACATTACTTAACCTTGTCAAGGCTAAATTATAGGTTTAAATC
-CTTTACGACTTAATGGCACACCCCCTCCTACTAGGATTCCAAGACGCAATATCACCTATTATAGAAGAACTCCTCCAC
-TTTCATGACCACACCCTAATAATTGTATTTTTAATTAGCACCATAGTACTCTACATTATCACACTAATAATAACAACA
-AAACTAACATATACCAACACTATAAACGCCCAAGAAGTAGAAATAATTTGAACTATTTTACCAGCCATTGTCCTAATT
-ACTATTGCACTACCCTCCCTACGAGTTCTTTACCTAATAGACGAAATTAATAACCCACATTTAACCATTAAAGCCATA
-GGACATCAATGATACTGAACATATGAATACACTGATTACGAAAACCTGGAGTTCGACTCCTACATGACCCCAACTAAA
-ACCCTGCCAAACGGACATTTCCGATTATTAGAAGTAGACCATCGTATGGTAATACCAATAGAATCCCCCATTCGGATA
-CTAGTCTCAGCTGAAGACGTCTTACACTCGTGAGCAGTACCATCATTAGGCGTAAAAACAGATGCAGTCCCAGGACGA
-TTGAATCAAGCAACTTTCATTGTCACACGACCGGGAGTATTTTATGGACAATGCTCAGAAATCTGTGGGGCTAACCAT
-AGCTTCATGCCAATCGTAATCGAATCTGTACCCCTATGACACTTCGAAAATTGATCTTCACTAATATTTTCCTAATCA
-CTATAGAAGCTAAAAGGATAGCGCTAGCCTTTTAAGCTAGAAAGAGAGAATTTCCGTCCTCCTTAGTGACATGCCACA
-GTTAAATACAGACCCGTGATTTATAATCCTTTCCTCCTCATGATTAATATACATTCTTATCTTACAACCAAAAATTTC
-ATCCTACTTACCAACAAACGACCCTACCAACAAAAACAATAAAACTATACACACAAACTCATGAACTTGACCATGAAC
-CCAACATTCTTCGATCAATTCATAAGCCCACAAATCCTTGGAATCCCACTAGCCGTTCTAGCCCTATTAATACCCCCA
-ATCATATTCCCAACCCAAAATAACCGATGGTTGACAAACCGCTTATCAACCCTTCAATTATGAGCAATTAATTTATTC
-ACAAAACAACTAATACTGCCAATCAACAAAACAGGCCACCAATGATCTATCATCTTAACATCACTCATAATTATACTC
-TTAACAACTAATCTCCTGGGACTTCTACCATACACATTTACCCCTACTACACAACTCTCCATGAATATAGGAATAGCT
-ATCCCAATATGACTAGCTACAGTACTTACCGGCCTCCGAAACCAACCAACTAAATCACTAGGACATCTATTACCAGAA
-GGTACCCCAATCCTGTTAACTCCAACTCTCATCATTATTGAAACAATTAGCCTTTTCATCCGACCATTAGCCCTAGGT
-GTACGACTTACAGCCAACTTAACAGCAGGTCATTTATTAATCCAACTCACCTCCACCGCAACACTCTCCCTATTACCA
-ACAATACTCACCCTATCTGCAATAACCACTGTGGTACTCCTATCGTTGACAATCTTGGAGCTAGCCGTAGCCATAATT
-CAAGCCTACGTGTTTGTGTTATTGCTGAGCCTTTACCTTCAAGAAAATACCTAATGACCCACCAAATACACGCCTACC
-ACATAGTAGACCCAAGCCCGTGACCATTAACAGGCGCAGCAGCAGCACTACTAATAACTTCAGGACTTGCCATATGAT
-TCCACTACAACTCAACACTACTAATAGCCCTAGGCTTATTAACTATACTACTAACCATATTTCAATGATGACGGGATG
-TCGTACGTGAAGGAACTTTCCAAGGACACCATACCCCCCCTGTACAAAAAAGCCTACGATATGGTATAATCCTATTCA
-TTACATCAGAAGTATTCTTCTTCATTGGATTTTTCTGAGCCTTTTATCACTCTAGTTTGGCTCCAACCCCAGAACTAG
-GTGGATGTTGACCACCAACAGGAATCACCCCACTAAACCCATTTGAAGTACCCCTATTAAATACAGCAGTACTACTGG
-CCTCAGGAGTAACAATCACTTGAGCCCACCATAGCCTAATAGAAACCAACCGAAATCAAACTATTCAGGCCCTCACCC
-TTACAATCTTACTAGGTTTATACTTTACATCACTACAAGCCATAGAGTATTACGAAGCTCCCTTCACAATCACTGATG
-GTGTGTACGGCTCTACTTTCTTTATTGCAACAGGCTTCCATGGACTCCATGTAATTATTGGCTCAATATTCTTAATTG
-TATGTCTCCTACGACAAATTAAATTCCACTTCACCTCTACCCACCACTTTGGGTTTGAAGCAGCTGCCTGATACTGAC
-ACTTCGTAGATGTCGTATGACTATTTCTCTATGTATCGATCTACTGATGAGGCTCATACTCTTCTAGTATAATAGTAC
-AAATGACTTCCAATCATTAAGTTTTAGTTATAACCCTAAAGAAGAGTAATAAATATAACAATCTCAACCATAACAATT
-GCCATTACCCTGTCCACAATCCTAATGGTACTAAACCACTGATTAACACTAATAAAACCAGATACTGAAAAACTATCC
-CCATACGAATGTGGATTTGATCCATTAGAATCAGCTCGCTTGCCATTCTCTATCCGATTCTTCCTGAGTAGCAATCTT
-ATTCCTCTTATTTGACTTAGAAATTGCACTACTCCTACCCCTACCATGAGCCATCCAACTCCCATCACCAACTTGCAC
-CTTTACTTGGGCTCTTATTATCTTATTACTACTTACATTAGGATTTATACACGAGTGAATTCAAGGGGGCCTAGAATG
-GGCAGAGTAGGTAGCTAGTCTAACACAAGACAACTAATTTCGACTTAGTTAATCGTGATTGAACTCCACGGCTATCAA
-ATGACTACTATACATTTCAGTTATTACTCAGCCTTTATTATCAGTATTACAGGCCTCTCGTTACACCAAACCCACCTA
-ATTTCAACCCTATTATGCCTTGAAAGTATAATACTGTCACTTTATATCGCACTATCAATATGACCCATTCAACTACAA
-ACCTCATCATTTATGCTAACCCCAATGTTAATATTATCCTTCTCAGCCTGTGAAGCAGGCATAGGACTCTCATTATTA
-GTAGCATCCTCACGAACTCATGGCTCAGACCACCTCCAAAACTTAAACCTTTTACAGTGCTAAAAATCCTACTCCCAA
-TAACTGCACTTCTCCTAACAACCACAATCTGCAAGCCAAAACAACTATGACCCACCACATCTATTAACACTTTCGGAA
-TTGCCCTTCTAAGCCTACAATGATTTAAACCCTCCCAAGAACTAACCATAAGTTTCTCCAACTATTATACAAGCATCG
-ACTACATCTCAGCTCCACTTCTCACTCTATCATGCTGACTCACCCCATTAATAATCCTAGCAAGTCAAAACCATCTTA
-TTATAGAACCAATTTCACGAAAACGAACATTTATTTTCATCACTACCCTATTACAAATCTCACTAGTACTTGCCTTCT
-CAGCAACAGAGCTAATTATATTCTTCATTATATTCGAAACTACACTAATCCCAACACTAGCAATTATCACACGTTGAG
-GTAACCAAGTAGAACGGCTAAACGCTGGGACTTATTTCCTATTCTACACCCTTATTGGATCCCTCCCATTACTAATCG
-CCCTCCTCTCCCTACAAAATCAAATTGGCACACTATCCACTTACATAATCCAACTTAACCAACCCACTATACTAAACA
-CATGAGCACATACAACATGATGATTTGCATTACTAACCGCCTTCATAATCAAAATGCCACTATACGGGTTACACTTAT
-GACTACCAAAAGCACACGTAGAAGCCCCAATCGCAGGATCAATAATCCTAGCAGCAGTATTACTCAAACTAGGGGGAT
-ATGGAATTATTCGAATTATACCAACACTAAATCCTCTATCAAAAACACTCTCCTACCCGTTCATAGTACTAGCACTAT
-GAGGAGTAATCATAACTGGCTCAATCTGTCTACGCCAAACAGATTTAAAATCATTGATTGCCTACTCATCAGTAAGTC
-ACATGGGTCTTGTTATTGCTGCAACACTAACACAAACCCAATGAGCATACACAGGTGCTATTACACTTATAATCGCCC
-ATGGCCTAACATCCTCAATACTCTTCTGCCTGGCTAATACAAACTACGAACGAACCCATAGCCGAACACTATTACTAG
-CCCGAAACATACAACTACTATACCCACTAATAGGCCTATGATGACTACTCACCAGCTTAGCCAACATAGCCATTCCAC
-CAACCATTAATCTAATAGGAGAACTAACTATTATCGCCTCATTATTCAACTGATCAAACATTACAATCCTAGCAACAG
-GATTAGGAACCATTATTACCGCTACATATACCCTATATATACTATCCACAACACAATGAGGGGGAACACCCTCATTCA
-TCAAAATAATACCGCCCACCCACACACGAGAACACCTTCTCATAATCCTCCACATCCTCCCCATAACACTACTAATAA
-TAAAACCAGAACTAATCTGAAATACTTTTTACTGTTAATATAGTTTTAAAACAAACATTAGACTGTGGCTCTAAAAAT
-AGGAGTTAAAACCTCCTTATAAACCGAGAGAGGTGATTCACAATAAGAACTGCTAATTCATATACCTGAGACTAATCT
-CTCAGCTCCCTCACTTTTAAAGGGTAGAAGTAATCCATTGGTTTTAGAAACCATCAACCCTTGGTGCAAATCCAAGTA
-AAAGTTATGGCTTTAATTAACCTGTCAATTTTATTCGCCATACTTACATTAGTATCGCCAATTATTATCTCATTATGT
-CTAACAAAAACATGACTTATCCTAAAAGCAAAAACAGCTGTAAAAACAGCATTCTTCATCACCTTAATTCCATTAGGC
-ATATTAGTAATAATACCCGAAAATATCTACACTAACATTACTCTGGTAAGCATATCTTCATTCTTCATCGAACTAAAC
-TTAATTCATGACATATATGCCCTCATTTTTATACCAGTCGCCCTATACGTTACATGGGCCATCCTAGAATACTCTCGC
-TGATACATGATAGAGGATCCATACGCCCATAAATTCTTTAAATACCTATTAATCTTCCTAGTAGCCATAATAATCTTA
-ATTACAGCTAACAATCTATTCCAATTCTTTATTGGTTGGGAAGGAGTAGGAGTCATATCCTTCCTACTTATTGGCTGA
-TGACGCGGCCGAGAAGAGACACTCTCATCAGCTTTAATAGCCATTATCTATAACCGCATCGGTGACTTTGGATTATTC
-ATCAGCATAACCTGATTCATAACAAACGCAAACTCACTAGGCTGACACCTACCCTTAGATAATCTACCCACCCCTCTT
-ACACCACTTCTAGGCTTCATCCTAGCTGCAACTGGAAAATCAGCTCAATTCGGACTTCACCCCTGATTACCAGCAGCC
-ATAGAAGGCCCAACTCCAGTCTCAGCATTACTACACTCCAGCACTATAGTCGTCGCTGGCATCTTCCTACTTATCCGA
-GTCCACCCATTACTAGCATCCAACAACACAGCTCTATCAATCTGCCTATGCTTAGGAGCTATCACCACATTCTTTGCA
-TCCCTGTGCGCTCTACCCCAGAATGACCTCAAAAAAATTATTGCTTACTCTACATCAAGCCAACTCGGCCTCATAATA
-GTTACCATTGGCTTAAACCAACCAAATCTAGCTTTCCTACACATCTGCATACACGCATTCTTTAAAGCCATATTATTT
-ATATGCGCAGGCTTTATTATCCACAGCCTAAGCAACGAACAAGACATTCGAAATATAGGAGGACTGTACAAACCTCTA
-CCAATTACCTCTGCATTTATAACTATTGGCAACATAGCGCTCATAGGTATACCATTCTTAACTGGTTATTACTCCAAA
-GATGCGATCATTGAAACCATATCAACATCATACTTAAACACTTGAGCCTTACTCATAACACTGATAGCAACCTCATTT
-ACTGCAGTCTACACGCTACGAATTATCCTACGAGTACTAACAGGACACCCCAAACAATTATCCACTTTCCTACTACAT
-GAAAACATTCCCACAATCGTAAACCCAATTACTCGCCTCGCTATTGGCAGCATTGTAGCCGGATGATTTATTTCAGCA
-AAACTCCCAATATTTAACACACCAACAATAACTATACCAACATGAATTAAAATTGCAGCATTTACAGTAACAATCATC
-GGTATCCTAGTAGGCCTACAACTAACCTCAATAGCTAATAAAATACCCATAAAACCTTCCGAAACCCATCATTTCGCC
-AACTCATCCACCTTCTTCAACCACCTAACCCACCGCAAATTCACAAAAAAATACCTAAAAACAGCCCAAAAAATTGCA
-ACCCACTTAAACGACACATCTTGATACGAATATCTTGGCCCAAAAGTACTAGCCAAATGACAAAAAACCCCAATACAC
-TTTACCTCCAAAATACAAAAAGGCCTCATCAAAATCTACTTAATCTCATTCCTCATTACATTGTTACTAGTACTGTTA
-CTTATAACATTCCTATATTAGACCTATCAACTCCCCAACGTTAGTCAACTCACTTTATTAATGGCCCCACTCACCCTT
-TCTTCCCCCCCCTCCCTCCCC" } ,
-                annot {
-                  {
-                    data
-                      ftable {
-                        {
-                          data
-                            gene {
-                              locus "ND2" } ,
-                          location
-                            int {
-                              from 78 ,
-                              to 1118 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "COX1" } ,
-                          location
-                            int {
-                              from 1499 ,
-                              to 3046 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "COX2" } ,
-                          location
-                            int {
-                              from 3181 ,
-                              to 3867 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "ATP8" } ,
-                          location
-                            int {
-                              from 3941 ,
-                              to 4129 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "ATP6" } ,
-                          location
-                            int {
-                              from 4099 ,
-                              to 4782 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "COX3" } ,
-                          location
-                            int {
-                              from 4782 ,
-                              to 5566 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "ND3" } ,
-                          location
-                            int {
-                              from 5635 ,
-                              to 5986 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "ND4L" } ,
-                          location
-                            int {
-                              from 6055 ,
-                              to 6351 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "ND4" } ,
-                          location
-                            int {
-                              from 6345 ,
-                              to 7730 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "ND5" } ,
-                          location
-                            int {
-                              from 7933 ,
-                              to 9741 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnM(cau)" } ,
-                          location
-                            int {
-                              from 9 ,
-                              to 77 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 77 } } ,
-                          location
-                            int {
-                              from 9 ,
-                              to 77 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnW(uca)" } ,
-                          location
-                            int {
-                              from 1117 ,
-                              to 1191 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 87 } } ,
-                          location
-                            int {
-                              from 1117 ,
-                              to 1191 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnA(ugc)" } ,
-                          location
-                            int {
-                              from 1193 ,
-                              to 1261 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 65 } } ,
-                          location
-                            int {
-                              from 1193 ,
-                              to 1261 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnN(guu)" } ,
-                          location
-                            int {
-                              from 1263 ,
-                              to 1335 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 78 } } ,
-                          location
-                            int {
-                              from 1263 ,
-                              to 1335 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnC(gca)" } ,
-                          location
-                            int {
-                              from 1361 ,
-                              to 1426 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 67 } } ,
-                          location
-                            int {
-                              from 1361 ,
-                              to 1426 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnY(gua)" } ,
-                          location
-                            int {
-                              from 1427 ,
-                              to 1497 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 89 } } ,
-                          location
-                            int {
-                              from 1427 ,
-                              to 1497 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnS(uga)" } ,
-                          location
-                            int {
-                              from 3038 ,
-                              to 3108 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 83 } } ,
-                          location
-                            int {
-                              from 3038 ,
-                              to 3108 ,
-                              strand minus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnD(guc)" } ,
-                          location
-                            int {
-                              from 3111 ,
-                              to 3180 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 68 } } ,
-                          location
-                            int {
-                              from 3111 ,
-                              to 3180 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnK(uuu)" } ,
-                          location
-                            int {
-                              from 3869 ,
-                              to 3939 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 75 } } ,
-                          location
-                            int {
-                              from 3869 ,
-                              to 3939 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnG(ucc)" } ,
-                          location
-                            int {
-                              from 5566 ,
-                              to 5634 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 71 } } ,
-                          location
-                            int {
-                              from 5566 ,
-                              to 5634 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnR(ucg)" } ,
-                          location
-                            int {
-                              from 5985 ,
-                              to 6054 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 82 } } ,
-                          location
-                            int {
-                              from 5985 ,
-                              to 6054 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnH(gug)" } ,
-                          location
-                            int {
-                              from 7726 ,
-                              to 7795 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 72 } } ,
-                          location
-                            int {
-                              from 7726 ,
-                              to 7795 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnS(gcu)" } ,
-                          location
-                            int {
-                              from 7796 ,
-                              to 7861 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 83 } } ,
-                          location
-                            int {
-                              from 7796 ,
-                              to 7861 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            gene {
-                              locus "trnL(uag)" } ,
-                          location
-                            int {
-                              from 7861 ,
-                              to 7932 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } ,
-                        {
-                          data
-                            rna {
-                              type tRNA ,
-                              ext
-                                tRNA {
-                                  aa
-                                    ncbieaa 76 } } ,
-                          location
-                            int {
-                              from 7861 ,
-                              to 7932 ,
-                              strand plus ,
-                              id
-                                local
-                                  str "C102543" } } } } } } ,
-              seq {
-                id {
-                  local
-                    str "C102543_1" } ,
+                    str "scaffold2433_FivePCGs_2" } ,
                 descr {
                   title "NADH dehydrogenase subunit 2 (mitochondrion) [Test
  sp.]" ,
@@ -1525,11 +782,11 @@ TCTTCCCCCCCCTCCCTCCCC" } ,
                   mol aa ,
                   length 346 ,
                   seq-data
-                    ncbieaa "MNPYTSVIITLSLIMGPLLTMSSNHWIMAWTGLEISTLAIIPLIAKQHH
-PRAIEAATKYFLTQATASTLILFSSIMNAWTLGQWDITQMSNNTPCMILTTALAIKLGLAPFHFWLPEVLQGTTTMTA
-LILTTWQKLAPLSLLVMTSQSLNTPLMLTLGLTSTLIGGWYGLNQTQLRKIMASSSIAHLGWMTTILTLSPKLTLLTF
-YTYIIMTSTTFLMIKTLETNMISVMMTSWTKLPTLNTMMMLTLMSLAGLPPLTGFTPKWLILQELTKQHMFIMAAAMA
-LISLLSLFFYLRISYYTTITLPPNSTNYLQQWRHKTNKKLYLATMTTLSITLLPITPTLLTIP" } ,
+                    ncbieaa "MPWPNPSSTLPSLQAHSSQR*ARTDFLPE*A*K*TC*LLFQF*PKK*TL
+VPQKLPSSISSRKQPHP*SF**LSSSTMYSPGNEP*PMLPINTHH**S*WL*Q*N*E*PPFTSESQ*LPKAPLWHPAC
+FFSHDKN*PPSQSYTKSLPH*T*AFSSLSQSYPSWQAVEVD*TKPSYAKS*HTPQLPT*DE**QFYRTTLT*PFLI*L
+FMLS*LLPHSYYST*TPAPRPYYYLAPETS*HD*HP*FHPPSSP*EACPR*PAFCPNGPLSKNSQKTMASSSPPS*PP
+SPSLTSTSTYA*STPPQSHYSPYLTTWK*NDSLNMQNPPHSSPHSSPLPRYSYLSPLLY**SY" } ,
                 annot {
                   {
                     data
@@ -1545,11 +802,11 @@ LISLLSLFFYLRISYYTTITLPPNSTNYLQQWRHKTNKKLYLATMTTLSITLLPITPTLLTIP" } ,
                               to 345 ,
                               id
                                 local
-                                  str "C102543_1" } } } } } } ,
+                                  str "scaffold2433_FivePCGs_2" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102543_2" } ,
+                    str "scaffold2433_FivePCGs_3" } ,
                 descr {
                   title "cytochrome c oxidase subunit I (mitochondrion) [Test
  sp.]" ,
@@ -1559,15 +816,15 @@ LISLLSLFFYLRISYYTTITLPPNSTNYLQQWRHKTNKKLYLATMTTLSITLLPITPTLLTIP" } ,
                 inst {
                   repr raw ,
                   mol aa ,
-                  length 515 ,
+                  length 513 ,
                   seq-data
-                    ncbieaa "MIFTRWFFSTNHKDIGTLYFIFGAWAGMVGTALSLLIRAELSQPGTLLG
-DDQIYNVIVTAHAFIMIFFMVMPIMIGGFGNWLVPMMIGAPDMAFPRMNNMSFWLLPPSLLLLLASSGIEAGAGTGWT
-VYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTAINMKSPAMSQYQTPLFVWSVLITAVLLLLSLPVLAAG
-ITMLLTDRNLNTTFFDPSGGGDPILYQHLFWFFGHPEVYILILPGFGMISHVVTYYAGKKEPFGYMGMVWAMMSIGFL
-GFIVWAHHMFTVGMDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGMVKWDAAMLWALGFIFLFTVGGLTGIVLANS
-SLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFTHWFPLFTGYSLHQTWAKVHFGVMFAGVNMTFFPQHFLGLAGMPRR
-YSDYPDAYTLWNSISSIGSLISLVAVIMMMFIIWEAFSSKRKVMKVELTTTNVEWIHGCPPPHHTYEEPAHVQTQE" } ,
+                    ncbieaa "MFADRWLFSTNHKDIGTLYLLFGAWAGVLGTALSLLIRAELGQPGNLLG
+NDHIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLLLLLASAMVEAGAGTGWT
+VYPPLAGNYSHPGASVDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAG
+ITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIVTYYSGKKEPFGYMGMVWAMMSIGFL
+GFIVWAHHMFTVGMDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGSNMKWSAAVLWALGFIFLFTVGGLTGIVLANS
+SLDIVLHDTYYVVAHFHYVLSMGAVFAIMGGFIHWFPLFSGYTLDQTYAKIHFTIMFIGVNLTFFPQHFLGLSGMPRR
+YSDYPDAYTTWNILSSVGSFISLTAVMLMIFMIWEAFASKRKVLMVEEPSMNLEWLYGCPPPYHTFEEPVYMKS" } ,
                 annot {
                   {
                     data
@@ -1580,14 +837,14 @@ YSDYPDAYTLWNSISSIGSLISLVAVIMMMFIIWEAFSSKRKVMKVELTTTNVEWIHGCPPPHHTYEEPAHVQTQE" } 
                           location
                             int {
                               from 0 ,
-                              to 514 ,
+                              to 512 ,
                               id
                                 local
-                                  str "C102543_2" } } } } } } ,
+                                  str "scaffold2433_FivePCGs_3" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102543_3" } ,
+                    str "scaffold2433_FivePCGs_4" } ,
                 descr {
                   title "cytochrome c oxidase subunit II (mitochondrion) [Test
  sp.]" ,
@@ -1597,12 +854,12 @@ YSDYPDAYTLWNSISSIGSLISLVAVIMMMFIIWEAFSSKRKVMKVELTTTNVEWIHGCPPPHHTYEEPAHVQTQE" } 
                 inst {
                   repr raw ,
                   mol aa ,
-                  length 228 ,
+                  length 227 ,
                   seq-data
-                    ncbieaa "MAHPLLLGFQDAMSPIMEELLHFHDHTLMIVFLISTMVLYIITLMMTTK
-LTYTNTMNAQEVEMIWTILPAIVLITIALPSLRVLYLMDEINNPHLTIKAMGHQWYWTYEYTDYENLEFDSYMTPTKT
-LPNGHFRLLEVDHRMVMPMESPIRMLVSAEDVLHSWAVPSLGVKTDAVPGRLNQATFIVTRPGVFYGQCSEICGANHS
-FMPIVIESVPLWHFENWSSLMFS" } ,
+                    ncbieaa "MAHAAQVGLQDATSPIMEELITFHDHALMIIFLICFLVLYALFLTLTTK
+LTNTNISDAQEMETVWTILPAIILVLIALPSLRILYMTDEVNDPSLTIKSIGHQWYWTYEYTDYGGLIFNSYMLPPLF
+LEPGDLRLLDVDNRVVLPIEAPIRMMITSQDVLHSWAVPTLGLKTDAIPGRLNQTTFTATRPGVYYGQCSEICGANHS
+FMPIVLELIPLKIFEMGPVFTL" } ,
                 annot {
                   {
                     data
@@ -1615,14 +872,14 @@ FMPIVIESVPLWHFENWSSLMFS" } ,
                           location
                             int {
                               from 0 ,
-                              to 227 ,
+                              to 226 ,
                               id
                                 local
-                                  str "C102543_3" } } } } } } ,
+                                  str "scaffold2433_FivePCGs_4" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102543_4" } ,
+                    str "scaffold2433_FivePCGs_5" } ,
                 descr {
                   title "ATP synthase F0 subunit 8 (mitochondrion) [Test sp.]" ,
                   molinfo {
@@ -1631,10 +888,10 @@ FMPIVIESVPLWHFENWSSLMFS" } ,
                 inst {
                   repr raw ,
                   mol aa ,
-                  length 62 ,
+                  length 68 ,
                   seq-data
-                    ncbieaa "MPQLNTDPWFMILSSSWLMYILILQPKISSYLPTNDPTNKNNKTMHTNS
-WTWPWTQHSSINS" } ,
+                    ncbieaa "MPQLNTTVWPTMITPMLLTLFLITQLKMLNTNYHLPPSPKPMKMKNYNK
+PWEPKWTKICSLHSLPPQS" } ,
                 annot {
                   {
                     data
@@ -1647,28 +904,29 @@ WTWPWTQHSSINS" } ,
                           location
                             int {
                               from 0 ,
-                              to 61 ,
+                              to 67 ,
                               id
                                 local
-                                  str "C102543_4" } } } } } } ,
+                                  str "scaffold2433_FivePCGs_5" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102543_5" } ,
+                    str "scaffold2433_FivePCGs_6" } ,
                 descr {
-                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
+                  title "ATP synthase F0 subunit 6, partial (mitochondrion)
+ [Test sp.]" ,
                   molinfo {
                     biomol peptide ,
-                    tech concept-trans } } ,
+                    tech concept-trans ,
+                    completeness no-right } } ,
                 inst {
                   repr raw ,
                   mol aa ,
-                  length 227 ,
+                  length 152 ,
                   seq-data
-                    ncbieaa "MNPTFFDQFMSPQILGIPLAVLALLMPPIMFPTQNNRWLTNRLSTLQLW
-AINLFTKQLMLPINKTGHQWSIILTSLMIMLLTTNLLGLLPYTFTPTTQLSMNMGMAIPMWLATVLTGLRNQPTKSLG
-HLLPEGTPILLTPTLIIIETISLFIRPLALGVRLTANLTAGHLLIQLTSTATLSLLPTMLTLSAMTTVVLLSLTILEL
-AVAMIQAYVFVLLLSLYLQENT" } ,
+                    ncbieaa "MNENLFASFIAPTILGLPATVLIILFPPLLIPTSKYLINNRLITTQQWL
+IKLISKQMMAMHNTKGRTWSLMLVSLIIFIATTNLLGLLPHSFTPTTQLSMNLAMAIPLWAGAVIMGFRSKIKNALAH
+FLPQGTPTPLIPMLVIIETISLLIQ" } ,
                 annot {
                   {
                     data
@@ -1678,17 +936,1401 @@ AVAMIQAYVFVLLLSLYLQENT" } ,
                             prot {
                               name {
                                 "ATP synthase F0 subunit 6" } } ,
+                          partial TRUE ,
                           location
                             int {
                               from 0 ,
-                              to 226 ,
+                              to 151 ,
                               id
                                 local
-                                  str "C102543_5" } } } } } } ,
+                                  str "scaffold2433_FivePCGs_6" ,
+                              fuzz-to
+                                lim gt } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "scaffold2433_FivePCGs_1" ,
+                      location
+                        int {
+                          from 2752 ,
+                          to 3708 ,
+                          strand plus ,
+                          id
+                            local
+                              str "scaffold2433_FivePCGs" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "scaffold2433_FivePCGs_2" ,
+                      location
+                        int {
+                          from 3919 ,
+                          to 4959 ,
+                          strand plus ,
+                          id
+                            local
+                              str "scaffold2433_FivePCGs" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "scaffold2433_FivePCGs_3" ,
+                      location
+                        int {
+                          from 5349 ,
+                          to 6890 ,
+                          strand plus ,
+                          id
+                            local
+                              str "scaffold2433_FivePCGs" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "scaffold2433_FivePCGs_4" ,
+                      location
+                        int {
+                          from 7031 ,
+                          to 7714 ,
+                          strand plus ,
+                          id
+                            local
+                              str "scaffold2433_FivePCGs" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "scaffold2433_FivePCGs_5" ,
+                      location
+                        int {
+                          from 7811 ,
+                          to 8017 ,
+                          strand plus ,
+                          id
+                            local
+                              str "scaffold2433_FivePCGs" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      partial TRUE ,
+                      product
+                        whole
+                          local
+                            str "scaffold2433_FivePCGs_6" ,
+                      location
+                        int {
+                          from 7972 ,
+                          to 8427 ,
+                          strand plus ,
+                          id
+                            local
+                              str "scaffold2433_FivePCGs" ,
+                          fuzz-to
+                            lim gt } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
               seq {
                 id {
                   local
-                    str "C102543_6" } ,
+                    str "C39691" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 293 ,
+                  seq-data
+                    iupacna "TAGGCCTAGAGATAGAATTGTGACTAGAATAAAGGCTATAATTATTATA
+GTAGAGGTTTTAATTGTTTGAATTGCTCATGGTAGTGGAAGTAGAAGAGCAATTTCTAGGTCAAATAATAGAAATGTA
+ATTGCTACCAAGAAAAATTTTATTGAGAATGGTAGACGTGCAGAGCTTGTAGGGTCGAATCCGCATTCATATGGATTT
+GCTTTTTCTGAGTACAGATTTATTTGGGGGAGTCAGAATGCAACTAGAATTAGCGTTAGGGATAATAAAATATTAATG
+AAGATAACAG" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 287 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C39691" ,
+                              fuzz-from
+                                lim lt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C39691_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3, partial (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-right } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 96 ,
+                  seq-data
+                    ncbieaa "MFINILLSLTLILVAFWLPQMNLYSEKANPYECGFDPTSSARLPFSMKF
+FLVAITFLLFDLEIALLLPLPWAIQTIKTSTMMIMAFILVTILSLGL" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 95 ,
+                              id
+                                local
+                                  str "C39691_1" ,
+                              fuzz-to
+                                lim gt } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      partial TRUE ,
+                      product
+                        whole
+                          local
+                            str "C39691_1" ,
+                      location
+                        int {
+                          from 0 ,
+                          to 287 ,
+                          strand minus ,
+                          id
+                            local
+                              str "C39691" ,
+                          fuzz-from
+                            lim lt } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C75077" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 804 ,
+                  seq-data
+                    iupacna "CAACAACATTACCGTAATATTACTTTCCCAATAAGGCCTTAGTAAAACC
+ATTACATAGCCCTGTCAGAGCTAAATTACAGAATAGGCCCTGTAGGCCTTAATGGCACACCCATCCCAGCTTGGTTTT
+CAAGATGCAGCCTCACCCATCATAGAAGAACTTCTACACTTCCACGACCATGCCTTAATAATCGTATTCTTAATTAGC
+GCCTTAGTCCTGTACACAATCACACTAATAATAACAACCAGCCTAACTCACACCAATACAATAGACGCACAAGAAGTA
+GAAATGATCTGAACTATTCTACCCGCAATCATCCTAGTACTTATTGCCCTACCATCATTACGAATCCTTTACCTAATA
+GATGAGATCAATAACCCACACCTAACAATTAAAACACTTGGTCATCAATGATACTGAAGCTACGAATACACAGACTAC
+GAAGACCTCACATTTGACTCGTATATAATACCAACTTCAGACCTACGCCCAGGAATGTTCCGACTTTTAGAAGTAGAC
+AACCGAATGGTGGTACCAATAGAAGCCCCAATCCGCGTACTAATCTCAGCTGAAGACGTATTGCATTCATGAGCAGTG
+CCAGCCCTTGGTATTAAAACAGACGCAATTCCGGGCCGCCTAAACCAAACAACGTTCATTACATCTCACCCAGGACTA
+TTTTATGGCCAATGTTCAGAAATCTGCGGGTCAAACCACAGTTTTATACCAATTGTAGTAGAAGCCGTACCACTCCAA
+CACTTCGAAGCCTGATCTACAACCATCCTATCTTCATAAAAAAAAAAAAAAAA" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 100 ,
+                              to 789 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C75077" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 32 ,
+                              to 99 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C75077" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 32 ,
+                              to 99 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C75077" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C75077_1" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 229 ,
+                  seq-data
+                    ncbieaa "MAHPSQLGFQDAASPIMEELLHFHDHALMIVFLISALVLYTITLMMTTS
+LTHTNTMDAQEVEMIWTILPAIILVLIALPSLRILYLMDEINNPHLTIKTLGHQWYWSYEYTDYEDLTFDSYMMPTSD
+LRPGMFRLLEVDNRMVVPMEAPIRVLISAEDVLHSWAVPALGIKTDAIPGRLNQTTFITSHPGLFYGQCSEICGSNHS
+FMPIVVEAVPLQHFEAWSTTILSS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 228 ,
+                              id
+                                local
+                                  str "C75077_1" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "C75077_1" ,
+                      location
+                        int {
+                          from 100 ,
+                          to 789 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C75077" } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C78501" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 1058 ,
+                  seq-data
+                    iupacna "GTGGTACTCCCGCTGTAAAAATTGGTAAAGAAATATGTCACATACATAA
+TGCTAGTGTTAGGGGTAGAAAGTTTTTTCATAGAAGATGTATAAGTTGATCGTAACGGAAGCGTGGATAAGATGCTCG
+GATCCATAGGAATGTTGATGATAGTAGTAGAGCTTCTATTATGAAGTTAGTTGAGTAGAGTTCTGGTAAATTGATATA
+GTATAGGGGTCCTAGGAAGATAATAGTTGTTAGGGCGTTTATTAGAATAATGTTAGTGTACTCTGCTATAAAGAATAA
+CGCGAATGGGCCGGCTGCGTATTCTACGTTAAACCCTGATACTAATTCTGATTCTCCTTCTGTCAGGTCGAAGGGGGC
+CCGGTTTGTTTCTGCTAGGGTTGAGATAAATCATATTATGGCTATGGGTCAGGCTGGCAGAAGTAATCATATGTGTTC
+TTGGGTTGTAATAAGTGTTTGTAGAGAGTAGGATCCATTTATTAATAGAACTGATAAAAGGATAATAGCTATGGTTAC
+TTCATATGAAATTGTTTGGGCTACGGCTCGTAAAGCTCCGAATAGTGAGTATTTGGAGTTTGAGGCTCATCCTGATCA
+TAGAATGGAGTAAACTGATAGGCTAGATGTTGCTAAAATAAATAAAATCCCTAGGTTTAAATTAATTAATGGGTGTGG
+TATTGGTAGGGGAACTCATAGACTTAATGCTAGTGTGAGTGATAGGGTAGGTGCAATAATAAATAAGGATATAGAGGT
+TGTTAAAGGGCGTATTGGTTCTTTTATAAATAATTTTATGGCGTCTGCAAATGGTTGTAAAATGCCGTATGGACCAAC
+AATGTTAGGGCCTTTTCGTAGTTGTATGTACCCTAAGATTTTGCGTTCTACTAATGTTAGGAAGGCTATGGCGATTAG
+AATGGGGACGAGGAGTGTTAGGATATTAATAAAGAACACTATTAGGGAGAGGATTTGAACCTCTGGGAACAAGGTTTT
+AAGTCTTACGCAATTTCCTGGCTCTGCCACCCTAATAACCTTCTCTAGGTTAGAGGGTGTACGTATATATTTT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 1 ,
+                              to 945 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C78501" ,
+                              fuzz-from
+                                lim lt } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 946 ,
+                              to 1020 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C78501" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 946 ,
+                              to 1020 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C78501" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C78501_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1, partial (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-right } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 315 ,
+                  seq-data
+                    ncbieaa "MFFINILTLLVPILIAMAFLTLVERKILGYMQLRKGPNIVGPYGILQPF
+ADAMKLFMKEPMRPLTTSMSLFIIAPTLSLTLALSLWVPLPMPHPLINLNLGILFILATSSLSVYSILWSGWASNSKY
+SLFGALRAVAQTISYEVTMAIILLSVLLMNGSYSLQTLITTQEHMWLLLPAWPMAMMWFISTLAETNRAPFDLTEGES
+ELVSGFNVEYAAGPFALFFMAEYTNIILMNALTTIIFLGPLYYINLPELYSTNFMMEALLLSSTFLWIRASYPRFRYD
+QLMHLLWKNFLPLTLALCMWHISLPIFTAGVP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 314 ,
+                              id
+                                local
+                                  str "C78501_1" ,
+                              fuzz-to
+                                lim gt } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      partial TRUE ,
+                      product
+                        whole
+                          local
+                            str "C78501_1" ,
+                      location
+                        int {
+                          from 1 ,
+                          to 945 ,
+                          strand minus ,
+                          id
+                            local
+                              str "C78501" ,
+                          fuzz-from
+                            lim lt } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C79311" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 1147 ,
+                  seq-data
+                    iupacna "TTTTTTTTTTTTTGGGTGTTATCATTTTAGTAATTTATTTTCTATGATG
+GCTGTTGCTGGCATAATTACTAGGAATATTGTGAAGTATATTGCTGAGGCTAGTTGACCAATAATGATGAATGGGTGT
+TCGACTGGTTGACCTCCGATTCATGTTAGGATAAGAACGTTAGACACTAGTAGTCAGAATATTAATTGTGAGGTTGGG
+CGGAATGTAGTGCTTCGTTGTTTTGAGGTGTGTAGAAGTGGGATAACTATTAAGATTAGAATAGAGAATAGAAGGGCC
+AGTACGCCTCCAAGTTTGTTTGGGATTGATCGTAGAATAGCGTATGCAAATAGGAAGTATCATTCTGGCTTAATGTGT
+GGAGGGGTAACTAGTGGGTTGGCTGGTGTAAAGTTTTCTGGGTCTCCTAAAAGGTTTGGTGAGAATAGTGCGAGTAGT
+AGGAGTAAGAAAATTAGTAGTAGAAGGCCAAGAAGATCTTTGTATGAAAAGTATGGGTGGAATGGTACTTTGTCTGTG
+TTTGATGCTAGGCCTGTTGGGTTGTTTGACCCTGTTTCGTGTAAAAATAATAGGTGAAGTATGGATGCGCCAATAATT
+GCGAATGGTAGTAGGAAGTGGAAGGTGAAAAATCGGGTGAGGGTTGCGTTATCAACTGAAAACCCCCCTCAGATTCAC
+TCAACGAGGGTCGTTCCAACATACGGGATGGCTGATAATAGATTTGTGATTACTGTCGCCCCTCAGAATGATATTTGT
+CCTCATGGTAGGACGTATCCTACAAAAGCGGTGGCTATTACTAGAAGTAGAAGTACTACTCCGATGTTTCAGGTTTCT
+TTGAATATGTACGAGCCGTAGTAAAGTCCGCGTCCCACATGAAGGTAGATGCAGATAAAGAATATTGAAGCGCCGTTG
+GCGTGAATGTTTCGAATAAGTCAGCCATACTGAACGTCTCGGCAAATGTGGGCGATGGATGAGAAGGCTGATGAGATG
+TCGGCTGTGTAGTGTATGGCTAGAAATAGGCCAGTTAGTACTTGGATAATTAGGCATGTTCCTAGGAGGGAGCCAAAG
+TTTCATCAGACTGAGATGTTGGATGGAGCTGGCAGGTCGATGAATGAGCTGTTTACAATTTTGATAATTGGGTGAGAT
+TTACGT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 18 ,
+                              to 1130 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C79311" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C79311_1" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 370 ,
+                  seq-data
+                    ncbieaa "MIKIVNSSFIDLPAPSNISVWWNFGSLLGTCLIIQVLTGLFLAMHYTAD
+ISSAFSSIAHICRDVQYGWLIRNIHANGASMFFICIYLHVGRGLYYGSYMFKETWNIGVVLLLLVMATAFVGYVLPWG
+QMSFWGATVITNLLSAIPYVGTTLVEWIWGGFSVDNATLTRFFTFHFLLPFAIIGASMLHLLFLHETGSNNPTGLASN
+TDKVPFHPYFSYKDLLGLLLLIFLLLLLALFSPNLLGDPENFTPANPLVTPPHIKPEWYFLFAYAILRSIPNKLGGVL
+ALLFSILILMVIPLLHTSKQRSTTFRPTSQLMFWLLVSNVLILTWIGGQPVEHPFIIIGQLASAMYFTMFLVIMPATA
+IMENKLLKW" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 369 ,
+                              id
+                                local
+                                  str "C79311_1" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "C79311_1" ,
+                      location
+                        int {
+                          from 18 ,
+                          to 1130 ,
+                          strand minus ,
+                          id
+                            local
+                              str "C79311" } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C81551" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 1561 ,
+                  seq-data
+                    iupacna "TCTGGGGGTTCGATTCCTTCCTTTCTTATTTTACTTTTACATAGGTTGG
+TTCCTCGAATGTGTGATATGGTGGAGGGCAGCCATGAAGTCATTCTAAATTTGTTGAAGCATACGATACTGATATTAC
+TTCTCGTTTTGAAGCAAAGGCCTCTCAAATTATAAAGATCATGATGAGAACAGCTGTTAGTGAAATAAATGATCCTAT
+AGAAGAGACAGTGTTTCATGTGGTGTAAGCATCTGGGTAGTCTGAGTAGCGTCGTGGTATTCCTGAAAGGCCCAGGAA
+ATGTTGAGGGAAGAATGTTATGTTTACTCCTACGAATATGATGGCGAAGTGGGCTTTTGCTCATGTGTCATCTAGGGT
+GAAGCCTGAAAATAATGGGAATCAGTGAACAAATCCTGCTATGATAGCAAACACTGCTCCCATTGATAGAACATAGTG
+GAAATGGGCTACTACATAGTATGTATCGTGAAGCACGATGTCAAGGGATGAGTTGGATAAAACAATTCCGGTTAGACC
+ACCAACTGTAAATAAGAAAATAAAGCCTAAGGCTCATAGTATAGCTGGAGATCATTTAATATTACCTCCGTGTAGGGT
+TGCAAGTCAGCTAAATACTTTGACACCGGTAGGAATTGCGATAATTATAGTGGCTGATGTAAAGTAAGCTCGTGTGTC
+TACATCTAATCCTACTGTGAATATGTGGTGGGCTCATACAATAAAGCCTAGAAAGCCAATAGACATTATTGCTCATAC
+TATTCCTATATAGCCGAAAGGTTCTTTTTTTCCGGAGTAGTAAGTAACTACATGTGAAATAATTCCAAATCCTGGGAG
+GATAAGAATATAAACTTCTGGGTGCCCAAAGAATCAGAACAGATGCTGGTAGAGAATTGGGTCCCCTCCTCCAGCGGG
+ATCAAAGAAAGTTGTGTTTAGGTTGCGGTCTGTTAGTAGTATAGTAATGCCTGCGGCTAGCACTGGTAGTGATAATAG
+GAGCAGTACGGCTGTAATAAGTACGGATCAGACAAATAGTGGAGTTTGATACTGTGTTATGGCTGGGGGTTTCATGTT
+GATAATAGTGGTAATAAAATTAATTGCACCTAAAATAGATGACACTCCAGCTAAATGAAGGGAGAAAATTGTTAGGTC
+TACTGATGCTCCTGCATGGGCTAGATTTCCGGCTAGAGGTGGGTAGACTGTTCATCCTGTTCCTGCTCCTGCTTCTAC
+TATTGATGATGCTAGGAGAAGGAGAAATGATGGTGGTAGGAGTCAAAAACTTATATTATTTATTCGTGGGAATGCTAT
+ATCTGGGGCTCCGATTATTAGTGGGACAAGTCAGTTTCCAAAGCCTCCAATTATTATTGGTATTACTATGAAGAAAAT
+TATAACAAAAGCATGGGCAGTTACGATAACATTGTAAATTTGGTCATCTCCTAAAAGTGCACCTGGTTGACCTAATTC
+TGCTCGAATTAAAATACTTAGTGCAGTACCCACTATTCCCGCTCAGGCTCCGAATAGTAGATAGAGGGTTCCGATATC
+TTTGTGATTGGTTGAGAATAATCAACGATT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 25 ,
+                              to 1560 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C81551" ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C81551_1" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I, partial
+ (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-left } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 511 ,
+                  seq-data
+                    ncbieaa "NRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQ
+IYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSMVEAGAGTGWTVYP
+PLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAGITM
+LLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFI
+VWAHHMFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNSSLD
+IVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDDTWAKAHFAIMFVGVNMTFFPQHFLGLSGMPRRYSD
+YPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 510 ,
+                              id
+                                local
+                                  str "C81551_1" ,
+                              fuzz-from
+                                lim lt } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      partial TRUE ,
+                      comment "can not determine the start codon" ,
+                      product
+                        whole
+                          local
+                            str "C81551_1" ,
+                      location
+                        int {
+                          from 25 ,
+                          to 1560 ,
+                          strand minus ,
+                          id
+                            local
+                              str "C81551" ,
+                          fuzz-to
+                            lim gt } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C81875" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 1659 ,
+                  seq-data
+                    iupacna "CATCTACCTTCTTCAACCTCACCATAGCCTTCTCACTATCACTTCTAGG
+GACACTTATATTTCGCTCTCACCTAATATCCACATTACTATGCCTGGAAGGCATAGTATTATCCTTATTTATTATAAC
+TTCAGTAACTTCCCTAAACTCCAACTCCATAAGCTCCATACCAATCCCCATCACCATCTTAGTTTTCGCAGCCTGCGA
+AGCAGCTGTAGGACTAGCCCTACTAGTAAAAGTTTCAAACACGTACGGAACAGATTACGTCCAAAATCTCAACCTACT
+ACAATGCTAAAAATTATTCTTCCCTCACTAATGCTACTACCACTAACCTGACTATCAAGCCCTAAAAAAACCTGAACA
+AACGTAACCTCATATAGTTTTCTAATTAGTTTAACCAGCCTAACACTTCTATGACAAACCGACGAAAATTATAAAAAC
+TTTTCAAATATATTCTCCTCAGACCCCCTATCCACACCATTAATTATTTTAACAGCCTGATTACTGCCACTAATATTA
+ATAGCTAGCCAAAACCACCTAAAAAAAGATAATAACGTACTACAAAAACTCTACATCTCAATACTAATCAGCTTACAA
+ATTCTCCTAATCATAACCTTTTCAGCAACTGAACTAATTATATTTTATATTTTATTTGAAGCAACCTTAATCCCAACA
+CTTATTATTATTACCCGATGAGGGAACCAAACTGAACGCCTAAACGCAGGGATTTATTTCCTATTTTATACCCTAATC
+GGTTCTATTCCACTGCTAATTGCCCTCATCTTAATCCAAAACCATGTAGGAACCCTAAACCTCATAATTTTATCATTC
+ACAACACACACCTTAGACGCTTCATGATCTAACAACTTACTATGGTTGGCATGCATAATAGCATTTCTTATTAAAATA
+CCATTATATGGAGTTCACCTATGACTACCAAAAGCCCATGTTGAAGCTCCAATTGCTGGGTCAATAATTCTAGCAGCT
+ATTCTTCTAAAATTAGGTAGTTACGGAATAATTCGCATCTCCATTATTCTAGACCCACTAACAAAATATATAGCATAC
+CCCTTCATCCTTCTCTCCCTATGAGGAATAATTATAACTAGCTCAATCTGCTTACGCCAAACAGATTTAAAATCACTA
+ATCGCCTACTCCTCAGTTAGCCACATAGCACTTGTTATTGCATCAATCATAATCCAAACTCCATGAAGCTTCATAGGA
+GCAACAATACTAATAATCGCACATGGCCTCACATCATCACTCCTATTCTGCCTAGCAAACTCCAACTACGAACGGATC
+CACAGCCGTACTATAATCATGGCCCGAGGACTTCAAATGGTCTTCCCACTTATAGCCACATGATGACTGATAGCAAGT
+CTAGCTAATCTAGCTCTACCCCCTTCAATCAATCTAATAGGAGAATTATTCATTACCATATCATTATTTTCTTGATCA
+AACTTTACCATTATTCTTATAGGAATTAACATTATTATTACAGGTATATACTCAATATACATAATTATTACCACCCAA
+CGCGGCAAACTAACCAACCATATAATTAACCTCCAACCCTCACACACACGAGAACTAACACTAATAGCCCTTCACATA
+ATTCCACTTATTCTTCTAACTACCAGTCCAAAACTAATTACAGGCCTGAC" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 23 ,
+                              to 292 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C81875" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 286 ,
+                              to 1656 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C81875" ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C81875_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 89 ,
+                  seq-data
+                    ncbieaa "MAFSLSLLGTLMFRSHLMSTLLCLEGMVLSLFIMTSVTSLNSNSMSSMP
+IPITILVFAACEAAVGLALLVKVSNTYGTDYVQNLNLLQC" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 88 ,
+                              id
+                                local
+                                  str "C81875_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C81875_2" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4, partial (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-right } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 457 ,
+                  seq-data
+                    ncbieaa "MLKIILPSLMLLPLTWLSSPKKTWTNVTSYSFLISLTSLTLLWQTDENY
+KNFSNMFSSDPLSTPLIILTAWLLPLMLMASQNHLKKDNNVLQKLYISMLISLQILLIMTFSATELIMFYILFEATLI
+PTLIIITRWGNQTERLNAGIYFLFYTLIGSIPLLIALILIQNHVGTLNLMILSFTTHTLDASWSNNLLWLACMMAFLI
+KMPLYGVHLWLPKAHVEAPIAGSMILAAILLKLGSYGMIRISIILDPLTKYMAYPFILLSLWGMIMTSSICLRQTDLK
+SLIAYSSVSHMALVIASIMIQTPWSFMGATMLMIAHGLTSSLLFCLANSNYERIHSRTMIMARGLQMVFPLMATWWLM
+ASLANLALPPSINLMGELFITMSLFSWSNFTIILMGINIIITGMYSMYMIITTQRGKLTNHMINLQPSHTRELTLMAL
+HMIPLILLTTSPKLITGL" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 456 ,
+                              id
+                                local
+                                  str "C81875_2" ,
+                              fuzz-to
+                                lim gt } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "C81875_1" ,
+                      location
+                        int {
+                          from 23 ,
+                          to 292 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C81875" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      partial TRUE ,
+                      product
+                        whole
+                          local
+                            str "C81875_2" ,
+                      location
+                        int {
+                          from 286 ,
+                          to 1656 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C81875" ,
+                          fuzz-to
+                            lim gt } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C81923" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 1686 ,
+                  seq-data
+                    iupacna "TTTTTTTTTTTTTTTAAGAGCCTCATCAATAAATTGATACATATAGGAA
+TAGTCAGACAACATCTACGAAGTGTCAATATCATGCTGCTGCCTCGAAGCCGAAGTGGTGGTCTGTTGTGAAGTGTGA
+TAGTGTTTGTCGTATTAGGCAGACGATCAAGAATGAGGATCCGATGATAACATGTAGTCCGTGGAATCCTGTTGCTAC
+AAAGAATGTTGTGCCGTAGATGCTGTCTGAGATGGTAAATGGGGCTTCATAGTATTCTATTGCTTGTAGTGCGGTAAA
+GTATAGGCCTAGAATAATTGTTATTGATAGTGCTTGAATAGCTTCTTTTCGTTTTCCTTCCATGATTGAGTGGTGGGC
+CCATGTGACTGTTACCCCTGAGGCCAGCAGTACCGCTGTGTTAAGCAGGGGTACTTCAAATGGGTTTAGTGGGTTAAC
+TCCGTTTGGTGGTCAAGATCCGCCGAGTTCTGGGGTTGGGGCGAGGCTGGAGTGGTAGAATGCTCAGAAGAACCCTAG
+AAAGAAAAATACTTCTGAGGTAATAAATAAAATTATCCCATAGCGCAGTCCTTTTTGTACAGGGTTGGTGTGATGTCC
+TTGAAACGTGCCCTCTCGTACAATATCTCGTCATCATTGATACATTGTTAGGAGTAGAATTACTAGCCCGATATTTAT
+TAGGGTGGTGTTATGGAAGTGGAATCATACTGCTAGGCCAGATGTTATAAGAAGGGCTGCGATGGCTCCTGTGAGGGG
+CCATGGGCTTGGGTCAACTATATGGTAAGCGTGTGCTTGGTGGGTCATTATACGTTTTCTTGTAAGTATAGGCTCAGT
+AGAAGGACAAAGACGTAGGCTTGAATTATTGCAACTGCGACTTCTAGTCCTGTTAGTAGGAGTAGAACAATAAAGGCC
+GTAGATGCTGTTAGTGTTATTGATGGTGTAAGGACAAAGACTGCTGTAGAAATTAGTTGAATTAGGAGATGGCCTGCT
+GTAAGGTTTGCGGTTAGGCGGACCCCTAGGGCTAAGGGTCGAATAAATAGGCTGATAGTTTCAATAATAATTAAGATT
+GGAATTAGCAGTGTTGGGGTTCCTTCAGGTAGTAGGTGTCCTAAAGACACTGTTGGTTGATTTCGCATTCCGATAAGT
+ACTGTTGACAGTCACATTGGTACTGCGAGTGCTATATTTATTGATAGCTGCGTTGTTGGAGTGAATGTGTATGGTAGA
+AGGCCTAATAAGTTCAGGGATAAAAGTAGAAGCGTGAGGGCCAGTAGTGTTGATGCTCATTTGTGGCCTCCGAGGTTA
+ATTGGTAATATAAGTTGTTTTGTGAAGGTTTTAGATAGTCATAGTTGGAGTGTAGATAGGCGGTTGTGGATTAGTCGG
+TTGGATGGGTTTAAGATAAGAAGGGTGGGTATAATGATGGCAATTAAGATTAGTGGAATGCCCAGGGCATGTGGGATT
+GCAAATTGGTCGAAAAAGCTTAGTGTCATGGTCAGGTTCAAGATGTTATGTGTTTTGTTTCTGAGGCAGTTTCAGTGG
+GTGTGTTCGGGGATAGCATTATTAGGGTCTTGTTTAGAAAAATAATTATTAAGGCGGCTCATACTAGGAGCATGATTA
+AAAACCATGGAGACGGGTTAAGTTGTGGCATATCACTGAGGGGGAGGTGATTCCCCTTCTCTAGCTTAAAAGGCTAG" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 13 ,
+                              to 798 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C81923" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 798 ,
+                              to 1481 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C81923" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP8" } ,
+                          location
+                            int {
+                              from 1472 ,
+                              to 1639 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C81923" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C81923_1" } ,
                 descr {
                   title "cytochrome c oxidase subunit III (mitochondrion)
  [Test sp.]" ,
@@ -1700,10 +2342,10 @@ AVAMIQAYVFVLLLSLYLQENT" } ,
                   mol aa ,
                   length 261 ,
                   seq-data
-                    ncbieaa "MTHQMHAYHMVDPSPWPLTGAAAALLMTSGLAMWFHYNSTLLMALGLLT
-MLLTMFQWWRDVVREGTFQGHHTPPVQKSLRYGMILFITSEVFFFIGFFWAFYHSSLAPTPELGGCWPPTGITPLNPF
-EVPLLNTAVLLASGVTITWAHHSLMETNRNQTIQALTLTILLGLYFTSLQAMEYYEAPFTITDGVYGSTFFIATGFHG
-LHVIIGSMFLIVCLLRQIKFHFTSTHHFGFEAAAWYWHFVDVVWLFLYVSIYWWGS" } ,
+                    ncbieaa "MTHQAHAYHMVDPSPWPLTGAIAALLMTSGLAVWFHFHNTTLMNIGLVI
+LLLTMYQWWRDIVREGTFQGHHTNPVQKGLRYGMILFITSEVFFFLGFFWAFYHSSLAPTPELGGSWPPNGVNPLNPF
+EVPLLNTAVLLASGVTVTWAHHSIMEGKRKEAIQALSMTIILGLYFTALQAMEYYEAPFTISDSIYGTTFFVATGFHG
+LHVIIGSSFLIVCLMRQTLSHFTTDHHFGFEAAAWYWHFVDVVWLFLYVSIYWWGS" } ,
                 annot {
                   {
                     data
@@ -1719,24 +2361,25 @@ LHVIIGSMFLIVCLLRQIKFHFTSTHHFGFEAAAWYWHFVDVVWLFLYVSIYWWGS" } ,
                               to 260 ,
                               id
                                 local
-                                  str "C102543_6" } } } } } } ,
+                                  str "C81923_1" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102543_7" } ,
+                    str "C81923_2" } ,
                 descr {
-                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
- sp.]" ,
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
                   molinfo {
                     biomol peptide ,
                     tech concept-trans } } ,
                 inst {
                   repr raw ,
                   mol aa ,
-                  length 117 ,
+                  length 227 ,
                   seq-data
-                    ncbieaa "MNMTISTMTIAITLSTILMVLNHWLTLMKPDTEKLSPYECGFDPLESAR
-LPFSIRFFLSSNLIPLIWL*NCTTPTPTMSHPTPITNLHLYLGSYYLITTYI*IYTRVNS*GP*MG*V" } ,
+                    ncbieaa "MTLSFFDQFAIPHALGIPLILIAIIMPTLLILNPSNRLIHNRLSTLQLW
+LSKTFTKQLMLPINLGGHKWASTLLALTLLLLSLNLLGLLPYTFTPTTQLSMNMALAVPMWLSTVLIGMRNQPTVSLG
+HLLPEGTPTLLIPILIIIETISLFIRPLALGVRLTANLTAGHLLIQLISTAVFVLTPSMTLTASTAFIVLLLLTGLEV
+AVAMIQAYVFVLLLSLYLQENV" } ,
                 annot {
                   {
                     data
@@ -1745,18 +2388,344 @@ LPFSIRFFLSSNLIPLIWL*NCTTPTPTMSHPTPITNLHLYLGSYYLITTYI*IYTRVNS*GP*MG*V" } ,
                           data
                             prot {
                               name {
-                                "NADH dehydrogenase subunit 3" } } ,
+                                "ATP synthase F0 subunit 6" } } ,
                           location
                             int {
                               from 0 ,
-                              to 116 ,
+                              to 226 ,
                               id
                                 local
-                                  str "C102543_7" } } } } } } ,
+                                  str "C81923_2" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102543_8" } ,
+                    str "C81923_3" } ,
+                descr {
+                  title "ATP synthase F0 subunit 8 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 55 ,
+                  seq-data
+                    ncbieaa "MPQLNPSPWFLIMLLVWAALMIIFLNKTLMMLSPNTPTETASETKHMTS
+WTWPWH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 54 ,
+                              id
+                                local
+                                  str "C81923_3" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "C81923_1" ,
+                      location
+                        int {
+                          from 13 ,
+                          to 798 ,
+                          strand minus ,
+                          id
+                            local
+                              str "C81923" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "C81923_2" ,
+                      location
+                        int {
+                          from 798 ,
+                          to 1481 ,
+                          strand minus ,
+                          id
+                            local
+                              str "C81923" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "C81923_3" ,
+                      location
+                        int {
+                          from 1472 ,
+                          to 1639 ,
+                          strand minus ,
+                          id
+                            local
+                              str "C81923" } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C82849_FivePCGs" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 2207 ,
+                  seq-data
+                    iupacna "TTTTTTTTTTTTAGTTGATTAAGCCTGAAATTAAGGCCGGTTTTATGAT
+GATGAGGATTAATGGGGCCAAGTGGAGTGCTATTAGAAGGTGCTCTCGTGTGTGGGTTGGGTCTGTGAGGGTAATGTT
+TGTTGGTAGTTTGTTTCGTTGCGTGGTAATGAATATGTGGAGTGAGTATATTGCTGTAATTAGTGTTCCTAGTCCTGT
+TAATAAGATTGTTGGGTTAGATCAGTTGAATAGTGAGATGATAATAAGGAGTTCCCCTATTAGGTTGATTGATGGGGG
+TAGTGCTATGTTAGTTAAGTTTGCTAGGAGCCATCAGGTAGATATTAGTGGAAGAATAATTTGGAAGCCGCGGGCAAG
+CACTATTGTTCGGGTGTGGGTTCGTTCGTAGTTTGTGTTTGCTAGGCAGAATAGTATTGATGATGTGAGGCCGTGTGC
+GATTATTAGGATTATAGCTCCTGTAAAGCTTCATGGGGTTTGGATCAGGCATGCCGCGATGACTAGTCCTATGTGACT
+AACTGATGAGTAGGCAATGAGTGATTTTAGGTCGGTTTGTCGCATGCAGATGGAGCTTGTCATAACGATGCCCCATAG
+TGCAAGGATTATAAATGGGTAATAAAGCTTAGGGGTTATTGGGGTAAGTGTTATTGTGATACGTATAATGCCGTAACC
+CCCAAGTTTTAGGAGGATGGCGGCTAGTACTATTGATCCTGCAATTGGGGCTTCTACATGGGCTTTTGGAAGTCAAAG
+GTGGAGTCCATATAGGGGCATTTTGACTATAAAAGCTAGTAGGCAGGCGGCCCACATAAATATGTTTGATCATGTGTT
+TGTTAATTGTGGCTGGGCCAATTGTAGAAGAATAATAGACGAGTGGTGGTTCTTGGTATTAAAGTATAAAATAGCTAC
+TAGTAGGGGGAGGGAGCTTGCTAAGGTGTAAAATAAAAAGTATGTTCCCGCTGTTAGTCGTTCTGCTTGGTTTCCTCA
+TCGGGTAATAATAATTAGGGTTGGAACTAAGGTGGCTTCAAATATGATATAAAATAAGGTGAGGTTTATTGCTGTGAA
+TGTGAGGATTAAGAGTGTTTGTAGGATGGCGAGGGTTATTAGAAACATACGTTTTCGGTGAAGGGGCTCTGATTTTAG
+GTGATTTTGGCTTGCTAGTACTATTAACGGCAAGAGTCAGCATGATAGCGTTAATAGTGGGGCTGAGATTGGGTCAAT
+TATTAGGTGGGGGGTTGAGAATGTTGGTTCTGTGTTTATTGATGTTTTTAGTCAGGTTAGGCTGATTAGGGCTAGAGT
+AGCTGAGTATATTGTGAATAGATTAAAGGTGTATAGTGGTTTTGTTATTATTGCAGTGGGTGCAAGTATTAATGTGGG
+TAGGATTACTTTTAGCATTGTAATAGGCTTAGGTTTTTAAGGTGATCGTTGCCGTGCGTACGAGAGGTTGCTACTAGT
+AAGGCCAGGCCGACACTTGCTTCGCAGGCTGAGAAGGCTAGTAGTATGATGGGTGCGGGTGCTATAGTTTGAAGGCTG
+TTTGTGGAAGAGAATGTTGTGATAATGATAAACAGGGCTAGTATTATTCCCTCGATGCACAATAGGGCGGATATAAGA
+TGTGTTCGGTGCATTGATAGGCCCAGAATGCTTAGAATAAATGTTGAGTTTAGTGTAAAATGTATAGGTAGCATGTAG
+ACGTCCAGGTGTATATCCTAGATCTGTTGAGTCGAAATCAAGTGTCTTATTTAGACTAACGTCTAATTCTGCTCATTC
+TAGCCCTCCTTGGGACCACTCGTAGATTAGGCCTAGTGTTAGTAGTGTAAGAATGGCGGTTGTAAGTAGAATAGTTTC
+TGTTGGGGTTTTTAGGTTTGAGGCCCATGGTAGGGGTAGTAATAGGGCAATTTCAAGGTCAAACAGAAGAAATAGAAT
+TGCAACTAGGAAGAATCGTAGTGAGAATGGAAGTCGGGCGCTTCCAAGGGGGTCAAATCCGCACTCATAGGGAGATAG
+TTTTTCTGTGTCGGGGTAGAGCTGGGGCAGTCAAAAGCTGATTAGGATGAGTAGGGTAGAGATTGCAAGGGAAATTAG
+TAGTATTGTTGTTAAGTTCATTGTTCTTTCTTAAGTTTTATTAAGACTTAGTGATTGGAAGTCACTTGTACTAGTTAA
+TACTAAAAGAACAAGAGCCTCATCAATAAATTGATACATATAGGAATAGTCA" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 10 ,
+                              to 1392 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C82849_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 1386 ,
+                              to 1682 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C82849_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 1752 ,
+                              to 2097 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C82849_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 1683 ,
+                              to 1751 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C82849_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 1683 ,
+                              to 1751 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C82849_FivePCGs" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 2098 ,
+                              to 2166 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C82849_FivePCGs" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 2098 ,
+                              to 2166 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C82849_FivePCGs" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C82849_FivePCGs_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 460 ,
+                  seq-data
+                    ncbieaa "MLKVILPTLMLAPTAMMTKPLYTFNLFTMYSATLALISLTWLKTSMNTE
+PTFSTPHLMIDPISAPLLTLSCWLLPLMVLASQNHLKSEPLHRKRMFLMTLAILQTLLILTFTAMNLTLFYIMFEATL
+VPTLIIITRWGNQAERLTAGTYFLFYTLASSLPLLVAILYFNTKNHHSSIILLQLAQPQLTNTWSNMFMWAACLLAFM
+VKMPLYGLHLWLPKAHVEAPIAGSMVLAAILLKLGGYGIMRITMTLTPMTPKLYYPFMILALWGIVMTSSICMRQTDL
+KSLIAYSSVSHMGLVIAACLIQTPWSFTGAMILMIAHGLTSSMLFCLANTNYERTHTRTMVLARGFQIILPLMSTWWL
+LANLTNMALPPSINLMGELLIIISLFNWSNPTILLTGLGTLITAMYSLHMFITTQRNKLPTNITLTDPTHTREHLLMA
+LHLAPLILIIMKPALISGLIN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 459 ,
+                              id
+                                local
+                                  str "C82849_FivePCGs_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C82849_FivePCGs_2" } ,
                 descr {
                   title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
  sp.]" ,
@@ -1768,8 +2737,8 @@ LPFSIRFFLSSNLIPLIWL*NCTTPTPTMSHPTPITNLHLYLGSYYLITTYI*IYTRVNS*GP*MG*V" } ,
                   mol aa ,
                   length 98 ,
                   seq-data
-                    ncbieaa "MTTMHFSYYSAFIISITGLSLHQTHLISTLLCLESMMLSLYIALSMWPI
-QLQTSSFMLTPMLMLSFSACEAGMGLSLLVASSRTHGSDHLQNLNLLQC" } ,
+                    ncbieaa "MLPMHFTLNSTFILSILGLSMHRTHLMSALLCIEGMMLALFIIITTFSS
+TNSLQTMAPAPIMLLAFSACEASVGLALLVATSRTHGNDHLKNLSLLQC" } ,
                 annot {
                   {
                     data
@@ -1785,13 +2754,13 @@ QLQTSSFMLTPMLMLSFSACEAGMGLSLLVASSRTHGSDHLQNLNLLQC" } ,
                               to 97 ,
                               id
                                 local
-                                  str "C102543_8" } } } } } } ,
+                                  str "C82849_FivePCGs_2" } } } } } } ,
               seq {
                 id {
                   local
-                    str "C102543_9" } ,
+                    str "C82849_FivePCGs_3" } ,
                 descr {
-                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
  sp.]" ,
                   molinfo {
                     biomol peptide ,
@@ -1799,15 +2768,10 @@ QLQTSSFMLTPMLMLSFSACEAGMGLSLLVASSRTHGSDHLQNLNLLQC" } ,
                 inst {
                   repr raw ,
                   mol aa ,
-                  length 461 ,
+                  length 115 ,
                   seq-data
-                    ncbieaa "MLKILLPMTALLLTTTICKPKQLWPTTSINTFGIALLSLQWFKPSQELT
-MSFSNYYTSIDYISAPLLTLSCWLTPLMILASQNHLIMEPISRKRTFIFITTLLQISLVLAFSATELIMFFIMFETTL
-IPTLAIITRWGNQVERLNAGTYFLFYTLIGSLPLLIALLSLQNQIGTLSTYMIQLNQPTMLNTWAHTTWWFALLTAFM
-IKMPLYGLHLWLPKAHVEAPIAGSMILAAVLLKLGGYGIIRIMPTLNPLSKTLSYPFMVLALWGVIMTGSICLRQTDL
-KSLIAYSSVSHMGLVIAATLTQTQWAYTGAITLMIAHGLTSSMLFCLANTNYERTHSRTLLLARNMQLLYPLMGLWWL
-LTSLANMAIPPTINLMGELTIIASLFNWSNITILATGLGTIITATYTLYMLSTTQWGGTPSFIKMMPPTHTREHLLMI
-LHILPMTLLMMKPELIWNTFYC" } ,
+                    ncbieaa "MNLTTMLLISLAISTLLILISFWLPQLYPDTEKLSPYECGFDPLGSARL
+PFSLRFFLVAILFLLFDLEIALLLPLPWASNLKTPTETILLTTAILTLLTLGLIYEWSQGGLEWAE" } ,
                 annot {
                   {
                     data
@@ -1816,54 +2780,14 @@ LHILPMTLLMMKPELIWNTFYC" } ,
                           data
                             prot {
                               name {
-                                "NADH dehydrogenase subunit 4" } } ,
+                                "NADH dehydrogenase subunit 3" } } ,
                           location
                             int {
                               from 0 ,
-                              to 460 ,
+                              to 114 ,
                               id
                                 local
-                                  str "C102543_9" } } } } } } ,
-              seq {
-                id {
-                  local
-                    str "C102543_10" } ,
-                descr {
-                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
- sp.]" ,
-                  molinfo {
-                    biomol peptide ,
-                    tech concept-trans } } ,
-                inst {
-                  repr raw ,
-                  mol aa ,
-                  length 602 ,
-                  seq-data
-                    ncbieaa "MALINLSILFAMLTLVSPIIISLCLTKTWLILKAKTAVKTAFFITLIPL
-GMLVMMPENIYTNITLVSMSSFFIELNLIHDMYALIFMPVALYVTWAILEYSRWYMMEDPYAHKFFKYLLIFLVAMMI
-LITANNLFQFFIGWEGVGVMSFLLIGWWRGREETLSSALMAIIYNRIGDFGLFISMTWFMTNANSLGWHLPLDNLPTP
-LTPLLGFILAATGKSAQFGLHPWLPAAMEGPTPVSALLHSSTMVVAGIFLLIRVHPLLASNNTALSICLCLGAITTFF
-ASLCALPQNDLKKIIAYSTSSQLGLMMVTIGLNQPNLAFLHICMHAFFKAMLFMCAGFIIHSLSNEQDIRNMGGLYKP
-LPITSAFMTIGNMALMGMPFLTGYYSKDAIIETMSTSYLNTWALLMTLMATSFTAVYTLRIILRVLTGHPKQLSTFLL
-HENIPTIVNPITRLAIGSIVAGWFISAKLPMFNTPTMTMPTWIKIAAFTVTIIGILVGLQLTSMANKMPMKPSETHHF
-ANSSTFFNHLTHRKFTKKYLKTAQKIATHLNDTSWYEYLGPKVLAKWQKTPMHFTSKMQKGLIKIYLISFLITLLLVL
-LLMTFLY" } ,
-                annot {
-                  {
-                    data
-                      ftable {
-                        {
-                          data
-                            prot {
-                              name {
-                                "NADH dehydrogenase subunit 5" } } ,
-                          location
-                            int {
-                              from 0 ,
-                              to 601 ,
-                              id
-                                local
-                                  str "C102543_10" } } } } } } } ,
+                                  str "C82849_FivePCGs_3" } } } } } } } ,
             annot {
               {
                 data
@@ -1877,15 +2801,15 @@ LLMTFLY" } ,
                       product
                         whole
                           local
-                            str "C102543_1" ,
+                            str "C82849_FivePCGs_1" ,
                       location
                         int {
-                          from 78 ,
-                          to 1118 ,
-                          strand plus ,
+                          from 10 ,
+                          to 1392 ,
+                          strand minus ,
                           id
                             local
-                              str "C102543" } } ,
+                              str "C82849_FivePCGs" } } ,
                     {
                       data
                         cdregion {
@@ -1895,69 +2819,15 @@ LLMTFLY" } ,
                       product
                         whole
                           local
-                            str "C102543_2" ,
+                            str "C82849_FivePCGs_2" ,
                       location
                         int {
-                          from 1499 ,
-                          to 3046 ,
-                          strand plus ,
+                          from 1386 ,
+                          to 1682 ,
+                          strand minus ,
                           id
                             local
-                              str "C102543" } } ,
-                    {
-                      data
-                        cdregion {
-                          frame one ,
-                          code {
-                            id 2 } } ,
-                      product
-                        whole
-                          local
-                            str "C102543_3" ,
-                      location
-                        int {
-                          from 3181 ,
-                          to 3867 ,
-                          strand plus ,
-                          id
-                            local
-                              str "C102543" } } ,
-                    {
-                      data
-                        cdregion {
-                          frame one ,
-                          code {
-                            id 2 } } ,
-                      product
-                        whole
-                          local
-                            str "C102543_4" ,
-                      location
-                        int {
-                          from 3941 ,
-                          to 4129 ,
-                          strand plus ,
-                          id
-                            local
-                              str "C102543" } } ,
-                    {
-                      data
-                        cdregion {
-                          frame one ,
-                          code {
-                            id 2 } } ,
-                      product
-                        whole
-                          local
-                            str "C102543_5" ,
-                      location
-                        int {
-                          from 4099 ,
-                          to 4782 ,
-                          strand plus ,
-                          id
-                            local
-                              str "C102543" } } ,
+                              str "C82849_FivePCGs" } } ,
                     {
                       data
                         cdregion {
@@ -1969,15 +2839,312 @@ LLMTFLY" } ,
                       product
                         whole
                           local
-                            str "C102543_6" ,
+                            str "C82849_FivePCGs_3" ,
                       location
                         int {
-                          from 4782 ,
-                          to 5566 ,
-                          strand plus ,
+                          from 1752 ,
+                          to 2097 ,
+                          strand minus ,
                           id
                             local
-                              str "C102543" } } ,
+                              str "C82849_FivePCGs" } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 2 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 3 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 28 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 3 ,
+                  day 28 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C83103" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 2597 ,
+                  seq-data
+                    iupacna "TTTTTTTTTTTTAGGTTCTTGTAGTTGAATAACAACGGTGGTTTTTCAG
+ATCATTAGTTTTGGTTTAAATCCAGATAGGAATATATGGCTTATTATATGTTTTTGATGTTTTTTTGTTTGGTTGTAG
+GGTTAGCAGCTGTTGCTTCTAACCCTTCTCCTTATTTTGGGGCAGCTGGTTTAGTAATTTCTGCTGGGGTGGGGTGTG
+CAGTGTTAGTTGGGTTTGGGAGCTCTTTTGTGTCTTTGGTTTTATTTTTGATTTATTTGGGGGGGATGCTGGTAGTTT
+TTGCTTATTCTGTTGCTTTGTCTTCGGATCCGTTCCCTGAGACTTGGGGGAGTTGGTCGGTAGGGGTATACTTGTTTG
+GATATTTGGTGTTGGTTTTTGTGTTGTGGTTAGTAACGGGTGTTGGTGCTGTAAGTGAGTATGGGATGGTTAGTGTGG
+ATGCTGTTGGGCTGTCCGTGTTGCGTGGGGATTTTTCTGGTGTTTCGTTGTTGTATTCTGTTGGTGGGGGTGGGCTGT
+TAGTTTGTGGGTGAGGTCTGTTGTTAACGTTATTTGTTGTATTAGAGTTGACCCGTGGTTTGGCTCGTGGTGGGCTGC
+GTGTAGTCTAATGGATAGGGTTGTAAAGAGTGCTGTTGTGGTAATGAATGCTAGGAGGTAGTTTTTAATGAGACCCTT
+TTGGTTAGAGGATAGGTTGATTATTGGTAGTTGGGAAGTTGATAGTCCTTTTGGGCCTAGTTTTTCTAGTCATAAGAG
+GTCATTTATCTGGGTGGCTGTTTTTTGGCTTGTTTTTAGTGTTATATTCGGGATATCTCGGTGAAGTAGGTTGAAGAA
+TCCGAGTTGGTTTGAGAATTGATGGTGGGTTGTTTGTTTTGTTGGCGTGAGGGTGGCGGTTTGGTTTGAGATGTCTAG
+TGCTAATATGAGTCCGATAACTGTAACAGAGATGGCTATAAGTTTGGTTAAAATTGGCATTGTTATTTGGATTGTTTT
+TGTCGGTAAGATTGCTGTTGTGATTAGTAGGCCTGAAATTAGAGTCCCTAAAGCAAGGCGAATGATTGGGTTAATTAG
+GGTCTTGGTATTTTCGTCAATGTTGATTAGAGGTTTATGTCGTACGGATTTTATTTGTACGTAGAACATGATTCGTAG
+GCTGTATGCTGCTGTTAGTATTGTTGCTAGAATTGTTATTAGCAGGGCTCAGGCGTTTAGGTGAGAATTGTTGAGTGT
+TTCAATAATAGTGTCTTTTGAGTAAAAGCCCGCTAGGAATGGGGTTCCTATTAGGGCCAGGCTTCCGATAGTAAGACA
+TGAGGATGTAGTTGGTATTGTGTTGGCGATTCCTCCTATTATTCGAATATCTTGTTCGTTTGACAGGTTGTGGATGAT
+TGAGCCTGAGCATAGGAATAACATTGCTTTAAAGAAGGCGTGGGTGGAGATGTGTATAAATGCTAGTAGTGGTTGGTT
+GAGGCCGATGGTGACTATTATAAGGCCTAGTTGACTTGAAGTTGAGAATGCTACGATTTTTTTAATATCGTTTTGGGT
+TAGGGCACAAATAGCTGTGAATGCAGTTGTTATTGAACCAAGACACAGGCAGATTGTCAAGGCAGTTTGGTTTGTTTG
+GATAATTGGGTGGATTCGGATAAGTAAAAATACCCCGGCAACGACTATTGTGCTGGAGTGCAGTAGTGCGGAGACTGG
+GGTTGGGCCTTCTATGGCTGCTGGTAGTCATGGGTGTAGGCCGAATTGGGCTGACTTGCCAGTTGCGGCAAGGATGAG
+GCCTAATATTGGGATCAGGTTGTTAATATTGTATAAAAAGTTTTCTTGGATTTGTCAGGTTGGGGTATTTGCTGTTAG
+TCATGCAATTGTTAAGATCAGGCCGATATCTCCGATTCGGTTATAGATGACGGCTTGGAGGGCTGAAGAGTTTGCATC
+TGCTCGGGAGTATCATCAGCCGATGAGGAGGAAGGATATAATTCCTACTCCCTCTCACCCGATAAAGAACTGAAATAA
+GTTATTTGCAGTAATGAGTGTAATTATGGCGATAAGGAAGATTAATAGATATTTAAAGAATTTGTTAATGTGTGGGTC
+TGTGGCCATATATCAGGTTGAGAACTCTAGGATTGACCATGTTACGAACAGTGCAATGGGGGTAAATGATAGTGAGTA
+GATGTCTATGATAAAGCTGATTTTGATATTAAAATTGCTAATTAGTAGTAGGGAGAAGTTAGTCAGTGTCGACTCTTC
+TCCGTAGTTGATGAATAGTATTGCTGGAATGGTGGTGATTAGGCATGTTGTTTGTAGTGCTAATTTAACGTTTTTTGT
+ATAATTTGGGTTGTTTTGTGTGGTTAATATGATTGGAGCTGCTAGGATGACTATAGCAGTCAGTATGGTGGTTGTAGA
+TAGGGTGGTGTGCATGTACTTTTACTTGGAGTTGCACCAAGGTTTTTGGTTCCTAAGACCAGTGGATTACTTTTATCC
+TTTAAAAGTAAGAGGTCTGAGGATTTTAACTTCAGTAGTAAGAATTAGCAGTTCTTGGTGTTCAAAACACCCCTTGGT
+TTGTAAGAAGGGTTAAACTTCTGTTTTTAGGGCCACTGCCTAATGTTTTTGT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 84 ,
+                              to 605 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C83103" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 601 ,
+                              to 2403 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C83103" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 14 ,
+                              to 82 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C83103" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 14 ,
+                              to 82 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C83103" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 2405 ,
+                              to 2475 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C83103" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 2405 ,
+                              to 2475 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C83103" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 2475 ,
+                              to 2541 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C83103" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 2475 ,
+                              to 2541 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C83103" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C83103_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 173 ,
+                  seq-data
+                    ncbieaa "MAYYMFLMFFCLVVGLAAVASNPSPYFGAAGLVISAGVGCAVLVGFGSS
+FVSLVLFLIYLGGMLVVFAYSVALSSDPFPETWGSWSVGVYLFGYLVLVFVLWLVTGVGAVSEYGMVSVDAVGLSVLR
+GDFSGVSLLYSVGGGGLLVCGWGLLLTLFVVLELTRGLARGGLRVV" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 172 ,
+                              id
+                                local
+                                  str "C83103_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "C83103_2" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 600 ,
+                  seq-data
+                    ncbieaa "MHTTLSTTTMLTAMVILAAPIMLTTQNNPNYTKNVKLALQTTCLITTIP
+AMLFINYGEESTLTNFSLLLISNFNIKISFIMDIYSLSFTPIALFVTWSILEFSTWYMATDPHINKFFKYLLIFLIAM
+ITLITANNLFQFFIGWEGVGIMSFLLIGWWYSRADANSSALQAVIYNRIGDIGLILTIAWLTANTPTWQIQENFLYNI
+NNLIPMLGLILAATGKSAQFGLHPWLPAAMEGPTPVSALLHSSTMVVAGVFLLIRIHPIIQTNQTALTICLCLGSMTT
+AFTAICALTQNDIKKIVAFSTSSQLGLMMVTIGLNQPLLAFMHISTHAFFKAMLFLCSGSIIHNLSNEQDIRMMGGIA
+NTMPTTSSCLTIGSLALMGTPFLAGFYSKDTIIETLNNSHLNAWALLMTILATMLTAAYSLRIMFYVQMKSVRHKPLI
+NIDENTKTLINPIIRLALGTLISGLLITTAILPTKTIQMTMPILTKLMAISVTVIGLMLALDISNQTATLTPTKQTTH
+HQFSNQLGFFNLLHRDIPNMTLKTSQKTATQMNDLLWLEKLGPKGLSTSQLPMINLSSNQKGLIKNYLLAFITTTALF
+TTLSI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 599 ,
+                              id
+                                local
+                                  str "C83103_2" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
                     {
                       data
                         cdregion {
@@ -1987,15 +3154,15 @@ LLMTFLY" } ,
                       product
                         whole
                           local
-                            str "C102543_7" ,
+                            str "C83103_1" ,
                       location
                         int {
-                          from 5635 ,
-                          to 5986 ,
+                          from 84 ,
+                          to 605 ,
                           strand plus ,
                           id
                             local
-                              str "C102543" } } ,
+                              str "C83103" } } ,
                     {
                       data
                         cdregion {
@@ -2005,48 +3172,12 @@ LLMTFLY" } ,
                       product
                         whole
                           local
-                            str "C102543_8" ,
+                            str "C83103_2" ,
                       location
                         int {
-                          from 6055 ,
-                          to 6351 ,
-                          strand plus ,
+                          from 601 ,
+                          to 2403 ,
+                          strand minus ,
                           id
                             local
-                              str "C102543" } } ,
-                    {
-                      data
-                        cdregion {
-                          frame one ,
-                          code {
-                            id 2 } } ,
-                      product
-                        whole
-                          local
-                            str "C102543_9" ,
-                      location
-                        int {
-                          from 6345 ,
-                          to 7730 ,
-                          strand plus ,
-                          id
-                            local
-                              str "C102543" } } ,
-                    {
-                      data
-                        cdregion {
-                          frame one ,
-                          code {
-                            id 2 } } ,
-                      product
-                        whole
-                          local
-                            str "C102543_10" ,
-                      location
-                        int {
-                          from 7933 ,
-                          to 9741 ,
-                          strand plus ,
-                          id
-                            local
-                              str "C102543" } } } } } } } } } }
+                              str "C83103" } } } } } } } } } }
